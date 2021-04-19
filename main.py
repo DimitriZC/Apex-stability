@@ -26,3 +26,19 @@ class Rocket():
         fins = geometry.Fins.fin(foguete.fins),
         canards = geometry.Fins.fin(foguete.canards)
     ]
+
+    def center_of_gravity_pos():
+        pass
+
+    def center_of_pressure_pos():
+        pass
+
+    def static_margin():
+        pass
+
+    def normal_force_angular_coefficient():
+        pass
+
+    def normal_force_coefficient():
+        #plotar cn x alpha
+        pass
