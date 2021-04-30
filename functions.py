@@ -124,7 +124,7 @@ def fins(
     free_stream_velocity,
     sound_velocity,
     rocket_length,
-    maximum_body_diameter,
+    max_body_diameter,
     thickness,
     Mach,
     root_chord,
@@ -143,7 +143,7 @@ def fins(
         free_stream_velocity (float): free stram velocity (m/s)
         sound_velocity (float): velocity of the sound (m/s)
         rocket_length (float): length of the rocket (m)
-        maximum_body_diameter (float): highest diameter of the body (m)
+        max_body_diameter (float): highest diameter of the body (m)
         thickness (float): thickness of the fin (m)
         Mach (float): mach number (-)
         root_chord (float): root chord length (m)
@@ -168,7 +168,7 @@ def fins(
     # important values:
     # Mach = free_stream_velocity / sound_velocity # Mach number
     R = (free_stream_velocity * rocket_length) / KINEMATIC_VISCOSITY # Reynolds number (verificar uso)
-    fb = rocket_length / maximum_body_diameter # Fineness ratio (verificar uso)
+    fb = rocket_length / max_body_diameter # Fineness ratio (verificar uso)
 
     # One-sided area of a single fin
     Afin = (root_chord + tip_chord) * spanwise_length / 2
@@ -206,7 +206,7 @@ def fins(
     # normal force coefficient derivative for N fins [DOUBLE CHECH THE REFERENCE FOR Ntot (total number of parallel fins that have an interference effect)]
     Cn_a = (N / 2) * Cn_a_one_fin
 
-    ktb = 1 + (maximum_body_diameter / 2) / (spanwise_length + (maximum_body_diameter / 2)) # Correction term for the normal force on the fins due to the body
+    ktb = 1 + (max_body_diameter / 2) / (spanwise_length + (max_body_diameter / 2)) # Correction term for the normal force on the fins due to the body
     Cn = ktb * Cn_a # final normal force coefficient derivative for the fins
 
     # Calculate fin set weight

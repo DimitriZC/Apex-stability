@@ -119,6 +119,7 @@ print(f'''
 #     => cn  = {float(fins["normal_force_coefficient_value"]):.4f}
 # => cna1Fin = {float(fins["normal_force_angular_coefficient_one_fin"]):.4f}
 #     => xcp = {float(fins["center_of_pressure_pos"]):.4f}
+#     => xcg = {float(fins["center_of_gravity_pos"]):.4f}
 
 # # Canards:
 #     => cna = {float(canards["normal_force_angular_coefficient"]):.4f}
