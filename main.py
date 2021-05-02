@@ -3,6 +3,9 @@ from barrowman import BarrowmanBody, BarrowmanFins
 import foguete
 
 class Rocket():
+    """
+    This class takes all components coefficients and calculate them for the whole rocket
+    """
 
     def __init__(self, data):
         """
