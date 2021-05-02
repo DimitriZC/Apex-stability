@@ -1,6 +1,11 @@
 from math import pi, radians
-#constants
 
+"""
+This file have the data for the constructors of the methods;
+The final goal is to configure the rocket here and then run the code.
+"""
+
+#constants
 
 dados = {
     "rho": 1.225,

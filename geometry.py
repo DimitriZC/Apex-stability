@@ -3,6 +3,19 @@ from numpy import pi, sqrt, arccos
 class Body():
 
     def __init__(self, dimensions):
+        """This class takes a dictionary with the dimension properties of the component to calculate the geometry values
+
+        Args:
+            dimensions (dict): Contain the dimension information of the component
+                - reference_area (float): reference area of the rocket body. normaly is the nose base area (m²)
+                - initial_radius (float): initial radius of the component (m)
+                - final_radius (float): final radius of the component (m)
+                - length (float): length of the component (m)
+                - body_diameter (float): the diameter of the body, is used for some geometries (m)
+                - weight (float) weight of the component (g)
+                - position (float): position of the component in relation to the nose tip (m)
+        """
+
         self.reference_area = dimensions["reference_area"]
         self.initial_radius = dimensions["initial_radius"]
         self.initial_area = (dimensions["initial_radius"] ** 2) * pi
@@ -15,6 +28,12 @@ class Body():
 
 
     def cylinder(self):
+        """This method calculate the geometry properties of a cylindrical body
+
+        Returns:
+            (dict): object with the geometry properties
+        """
+
         # Calculate the volume of the body
         volume = self.initial_area * self.length
 
@@ -31,7 +50,11 @@ class Body():
         }
 
     def cone(self):
+        """This method calculate the geometry properties of a conical body
 
+        Returns:
+            (dict): object with the geometry properties
+        """
         # Calculate the volume of the body
         volume = 1/3 * pi * ((self.initial_area / pi) * (sqrt((self.initial_area / pi) * (self.final_area / pi))) * (self.final_area / pi)) * self.length
 
@@ -49,6 +72,12 @@ class Body():
         }
 
     def von_karman(self):
+        """This method calculate the geometry properties of a von karman geometry
+
+        Returns:
+            (dict): object with the geometry properties
+        """
+
         dx = self.length/1000
         _x = np.arange(0, self.length, dx)
         _theta = [np.arccos(1 - 2*x/self.length) for x in _x]
@@ -74,7 +103,21 @@ class Body():
 class Fins():
 
     def __init__(self, dimensions):
+        """This class takes a dictionary with the dimension properties of the component to calculate the geometry values
 
+        Args:
+            dimensions (dict): Contain the dimension information of the component
+                - thickness (float): thickness of the fin (m)
+                - root_chord (float): root chord of the fin (m)
+                - tip_chord (float): tip chord of the fin (m)
+                - spanwise_length (float): span length of the fin (m)
+                - max_body_diameter (float): max body diameter (m)
+                - position (float): position of the fin in relation to the nose tip (m)
+                - weight (float): weight of one fin (g)
+                - body_type (str): indicates the geometry of the fin airfoil
+                - number_of_fins (int): number of fins on the finset (-)
+                - Mach (float): Mach number (-)
+        """
         self.thickness = dimensions["thickness"]
         self.root_chord = dimensions["root_chord"]
         self.tip_chord = dimensions["tip_chord"]
@@ -90,7 +133,11 @@ class Fins():
 
 
     def fin(self):
+        """This method calculate the geometry properties of the fins
 
+        Returns:
+            (dict): object with the geometry properties
+        """
         MAC = 0 #botar formula aqui
 
         # One-sided area of a single fin

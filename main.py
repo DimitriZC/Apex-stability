@@ -5,7 +5,9 @@ import foguete
 class Rocket():
 
     def __init__(self, data):
-        """This are the general variables that is going to be used by any of the methods
+        """
+        data is an object that contains the basic informations.
+        Theose are the general variables that are going to be used by any of the methods
 
         Args:
             rho (float): air density (kg / m³)
@@ -53,6 +55,12 @@ class Rocket():
         ] # temporario so pra rodar
 
     def center_of_gravity_pos(self):
+        """this method is responsable to take all components weight and position, and then calculate
+        the center of gravity of the rocket
+
+        Returns:
+            (float): center of gravity posittion of the rocket
+        """
 
         total_weight = 0
         cg_pos = 0
@@ -72,6 +80,12 @@ class Rocket():
 
 
     def center_of_pressure_pos(self):
+        """this method is responsable to take all components centers of pressure, and then calculate
+        the resulting center of pressure of the rocket
+
+        Returns:
+            float: center of pressure of the whole rocket
+        """
 
         Cna_sum = 0
         cp_pos = 0
@@ -86,6 +100,11 @@ class Rocket():
         return cp_pos
 
     def static_margin(self):
+        """This method takes the CG and CP of the rocket and returns the static margins of the rocket
+
+        Returns:
+            float: static margin
+        """
 
         cg_pos = self.center_of_gravity_pos()
         cp_pos = self.center_of_pressure_pos()
@@ -93,6 +112,11 @@ class Rocket():
         return (cp_pos - cg_pos) / (foguete.nose["final_radius"] * 2) #colocar em calibres
 
     def normal_force_angular_coefficient(self):
+        """This methos calculates the resulting normal force angular coefficient for te whole rocket
+
+        Returns:
+            (float): Normal force angular coefficient of the rocket
+        """
 
         normal_force_of_the_rocket = 0
 
@@ -102,5 +126,9 @@ class Rocket():
         return normal_force_of_the_rocket
 
     def normal_force_coefficient(self):
+        """This method takes the normal force angular coefficient, and plot the normal force value
+        for a range of AoA
+        """
+
         #plotar cn x alpha
         pass

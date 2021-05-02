@@ -1,8 +1,28 @@
 from math import pi, sin, sqrt, cos
 
 class BarrowmanBody():
+    """This class implements the barrowman methos for axial symetric bodys
+    """
 
     def __init__(self,dimensions, body, angle):
+        """The class recieve two dictionaries with the variables needed for the method
+        and the angle value
+
+        Args:
+            dimensions (dict): Contain the dimension information of the component
+                - body_diameter (float): the diameter of the body, is used for some geometries (m)
+                - length (float): length of the component (m)
+                - reference_area (float): reference area of the rocket body. normaly is the nose base area (m²)
+                - initial_radius (float): initial radius of the component (m)
+                - final_radius (float): final radius of the component (m)
+            body (dict): contain the geometry properties of the body
+                - volume (float): body volume (m³)
+                - body_type (string): indicates the geometry of the body component;
+                - center_of_pressure_pos (float): center of pressure position in relation to the nose tip (m)
+            angle (float): AoA that is going to be analysed (rad)
+        """
+
+
         self.body_diameter = dimensions["body_diameter"]
         self.length = dimensions["length"]
         self.reference_area = dimensions["reference_area"]
@@ -16,6 +36,11 @@ class BarrowmanBody():
         self.angle = angle
 
     def coefficients(self):
+        """this method calculates the aerodynamics coefficients of the body components
+
+        Returns:
+            (dict): a dictionary that contains the coefficients
+        """
 
         if self.body_type == "cylinder":
             normal_force_coefficient_value = 1.1 * (self.length * self.body_diameter) / self.reference_area * (sin(self.angle) ** 2)
@@ -39,6 +64,7 @@ class BarrowmanBody():
 
         elif self.body_type == "von karman":
 
+            # this attribute is only needed with the von karman geometry
             self.integral = body["rIntegral"]
 
             normal_force_angular_coefficient = ((4*np.pi)/self.reference_area) * (np.sin(angle)/angle) * (0.5*self.body_diameter) * self.integral
@@ -60,6 +86,20 @@ class BarrowmanBody():
 class BarrowmanFins():
 
     def __init__(self, dimensions, body):
+        """The class recieve two dictionaries with the variables needed for the method
+
+        Args:
+            dimensions (dict): Contain the dimension information of the component
+                - spanwise_length (float): span length of the fin (m)
+                - max_body_diameter (float): max body diameter (m)
+                - number_of_fins (int): number of fins on the finset (-)
+            body (dict): contain the geometry properties of the body
+                - center_of_pressure_pos: center of pressure possition in relation to nose cone tip (m)
+                - refence_area (float): reference area of the fins (m²)
+                - fin_area (float): area of one fin (m²)
+                - beta (float): beta parameter (-)
+                - sweep_angle: sweep angle of the fin (rad)
+        """
         self.spanwise_length = dimensions["spanwise_length"]
         self.max_body_diameter = dimensions["max_body_diameter"]
         self.number_of_fins = dimensions["number_of_fins"]
@@ -70,10 +110,15 @@ class BarrowmanFins():
         self.sweep_angle = body["sweep_angle"]
 
     def coefficients(self):
+        """Thos method calculats the aerodynamic coefficients of the finset
+
+        Returns:
+            (dict): dictionary with the aerodynamic coefficients
+        """
 
         normal_force_angular_coefficient_one_fin = ((2 * pi * self.spanwise_length ** 2) / self.reference_area)/(1 + sqrt(1 + ((self.beta * self.spanwise_length ** 2) / (self.fin_area * cos(self.sweep_angle))) ** 2))
 
-        # normal force coefficient derivative for N fins [DOUBLE CHECH THE REFERENCE FOR Ntot (total number of parallel fins that have an interference effect)]
+        # normal force coefficient derivative for N fins [DOUBLE CHECK THE REFERENCE FOR Ntot (total number of parallel fins that have an interference effect)]
         normal_force_angular_coefficient = (self.number_of_fins / 2) * normal_force_angular_coefficient_one_fin
 
         ktb = 1 + (self.max_body_diameter / 2) / (self.spanwise_length + (self.max_body_diameter / 2)) # Correction term for the normal force on the fins due to the body
