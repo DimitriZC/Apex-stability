@@ -1,4 +1,5 @@
 from geometry import Body, Fins
+from barrowman import BarrowmanBody, BarrowmanFins
 import foguete
 
 class Rocket():
@@ -19,20 +20,36 @@ class Rocket():
         self.angle = data["angle"]
         self.sound_velocity = data["sound_velocity"]
 
-        nose_cone = Body(foguete.nose).cone()
-        fuselage = Body(foguete.fuselage).cylinder()
-        boattail = Body(foguete.boattail).cone()
-        fins = Fins(foguete.fins).fin()
-        canards = Fins(foguete.canards).fin()
+        # temporary way to call the geometry method
 
-        print(type(nose_cone))
+        nose_cone_geometry = Body(foguete.nose).cone()
+        fuselage_geometry = Body(foguete.fuselage).cylinder()
+        boattail_geometry = Body(foguete.boattail).cone()
+        fins_geometry = Fins(foguete.fins).fin()
+        canards_geometry = Fins(foguete.canards).fin()
 
-        self.components = [
-            nose_cone,
-            fuselage,
-            boattail,
-            fins,
-            canards
+        # temporary way to call barrowman method
+
+        nose_cone_barrowman = BarrowmanBody(foguete.nose, nose_cone_geometry, self.angle).coefficients()
+        fuselage_barrowman = BarrowmanBody(foguete.fuselage, fuselage_geometry, self.angle).coefficients()
+        boattail_barrowman = BarrowmanBody(foguete.boattail, boattail_geometry, self.angle).coefficients()
+        fins_barrowman = BarrowmanFins(foguete.fins, fins_geometry).coefficients()
+        canards_barrowman = BarrowmanFins(foguete.canards, canards_geometry).coefficients()
+
+        self.components_geometry = [
+            nose_cone_geometry,
+            fuselage_geometry,
+            boattail_geometry,
+            fins_geometry,
+            canards_geometry
+        ] # temporario so pra rodar
+
+        self.components_barrowman = [
+            nose_cone_barrowman,
+            fuselage_barrowman,
+            boattail_barrowman,
+            fins_barrowman,
+            canards_barrowman
         ] # temporario so pra rodar
 
     def center_of_gravity_pos(self):
@@ -40,7 +57,7 @@ class Rocket():
         total_weight = 0
         cg_pos = 0
 
-        for component in self.components:
+        for component in self.components_geometry:
             total_weight += component["weight"]
 
         # for component in weight_pos_components: ### componentes de peso
@@ -48,7 +65,7 @@ class Rocket():
         # for component in weight_pos_components:
         #     cg_pos += (component[0] * component[1]) / total_weight
 
-        for component in self.components:
+        for component in self.components_geometry:
             cg_pos += component["weight"] * component["center_of_gravity_pos"] / total_weight
 
         return cg_pos
@@ -59,27 +76,27 @@ class Rocket():
         Cna_sum = 0
         cp_pos = 0
 
-        for component in self.components:
+        for component in self.components_barrowman:
             Cna_sum += component["normal_force_angular_coefficient"]
 
 
-        for component in self.components:
+        for component in self.components_barrowman:
             cp_pos += component["normal_force_angular_coefficient"] * component["center_of_pressure_pos"] / Cna_sum
 
         return cp_pos
 
     def static_margin(self):
 
-        cg_pos = center_of_gravity_pos()
-        cp_pos = center_of_pressure_pos()
+        cg_pos = self.center_of_gravity_pos()
+        cp_pos = self.center_of_pressure_pos()
 
-        return cp_pos - cg_pos #colocar em calibres
+        return (cp_pos - cg_pos) / (foguete.nose["final_radius"] * 2) #colocar em calibres
 
     def normal_force_angular_coefficient(self):
 
         normal_force_of_the_rocket = 0
 
-        for component in components:
+        for component in self.components_barrowman:
             normal_force_of_the_rocket += component['normal_force_coefficient_value']
 
         return normal_force_of_the_rocket
@@ -87,8 +104,3 @@ class Rocket():
     def normal_force_coefficient(self):
         #plotar cn x alpha
         pass
-
-
-Foguete = Rocket(foguete.dados)
-teste = Foguete.center_of_gravity_pos()
-print(teste)

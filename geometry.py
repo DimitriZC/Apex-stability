@@ -132,6 +132,6 @@ class Fins():
             "sweep_angle": sweep_angle,
             "reference_area": reference_area,
             "beta": beta,
-            "sin_area": fin_area
+            "fin_area": fin_area
         }
 
