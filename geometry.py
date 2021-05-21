@@ -80,8 +80,8 @@ class Body():
 
         dx = self.length/1000
         _x = np.arange(0, self.length, dx)
-        _theta = [np.np.arccos(1 - 2*x/self.length) for x in _x]
-        _r = [(0.5 * self.body_diameter / np.np.sqrt(np.np.pi)) * (np.np.sqrt(theta - 0.5 * np.sin(2 * theta)))  for theta in _theta]
+        _theta = [np.arccos(1 - 2*x/self.length) for x in _x]
+        _r = [(0.5 * self.body_diameter / np.sqrt(np.pi)) * (np.sqrt(theta - 0.5 * np.sin(2 * theta)))  for theta in _theta]
         _r2 = [r**2 for r in _r]
         rIntegral = np.trapz(_r, _x, dx=dx)
         r2Integral = np.trapz(_r2, _x, dx=dx)
