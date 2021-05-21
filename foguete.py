@@ -46,10 +46,10 @@ nose = {
 
 fuselage = {
     "reference_area": reference_area,
-    "initial_radius": 0.0792,
-    "final_radius": 0.0792,
+    "initial_radius": 0.0792 / 2,
+    "final_radius": 0.0792 / 2,
     "length": 1.7,
-    "body_diameter": 0.792, #pra arrasto da pra ver dps
+    "body_diameter": 0.0792, #pra arrasto da pra ver dps
     "weight": 1072.58,
     "position": 0.228,
 }
@@ -67,7 +67,7 @@ boattail = {
 fins = {
     "thickness": 0.0023, # (m)
     "root_chord": 0.18, # (m)
-    "tip_chord": 0.07,
+    "tip_chord": 0.05,
     "spanwise_length": 0.17,
     "sweep_length": 0.16,
     "max_body_diameter": 0.0832,

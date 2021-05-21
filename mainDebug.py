@@ -36,6 +36,7 @@ print(f'''
 #     => cn  = {float(Foguete.components_barrowman[4]["normal_force_coefficient_value"]):.4f}
 # => cna1Fin = {float(Foguete.components_barrowman[4]["normal_force_angular_coefficient_one_fin"]):.4f}
 #     => xcp = {float(Foguete.components_geometry[4]["center_of_pressure_pos"]):.4f}
+#     => xcg = {float(Foguete.components_geometry[4]["center_of_gravity_pos"]):.4f}
 ''')
 
 print(f"CG = {Foguete.center_of_gravity_pos()}")

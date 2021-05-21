@@ -56,7 +56,7 @@ class Body():
             (dict): object with the geometry properties
         """
         # Calculate the volume of the body
-        volume = 1/3 * np.pi * ((self.initial_area / np.pi) * (np.sqrt((self.initial_area / np.pi) * (self.final_area / np.pi))) * (self.final_area / np.pi)) * self.length
+        volume = 1/3 * np.pi * self.length * ((self.initial_radius ** 2) + self.initial_radius * self.final_radius + (self.final_radius ** 2))
 
         # Calculate the center of pressure
         center_of_pressure_pos = self.position + ((self.length * self.final_area - volume) / abs(self.final_area - self.initial_area)) # [VER ESSA FÓRMULA]
@@ -138,7 +138,10 @@ class Fins():
         Returns:
             (dict): object with the geometry properties
         """
-        MAC = 0 #botar formula aqui
+
+        taper_ratio = self.tip_chord / self.root_chord
+
+        MAC = 2 / 3 * self.root_chord * ((1 + taper_ratio + taper_ratio ** 2) / (1 + taper_ratio))
 
         # One-sided area of a single fin
         fin_area = (self.root_chord + self.tip_chord) * self.spanwise_length / 2
