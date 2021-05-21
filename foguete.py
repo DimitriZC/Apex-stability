@@ -11,7 +11,7 @@ dados = {
     "rho": 1.225,
     "Mach": 0.3,
     "free_stream_velocity": 20,
-    "angle": radians(0),
+    "angle": radians(2),
     "sound_velocity": 342
 }
 

@@ -1,3 +1,4 @@
+import numpy as np
 from math import pi, sin, sqrt, cos
 
 class BarrowmanBody():
@@ -34,6 +35,9 @@ class BarrowmanBody():
         self.body_type = body["body_type"]
         self.center_of_pressure_pos = body["center_of_pressure_pos"]
         self.angle = angle
+        # for the von karman geometry
+        if self.body_type == "von Karman":
+            self.integral = body["rIntegral"]
 
     def coefficients(self):
         """this method calculates the aerodynamics coefficients of the body components
@@ -44,33 +48,29 @@ class BarrowmanBody():
 
         if self.body_type == "cylinder":
             normal_force_coefficient_value = 1.1 * (self.length * self.body_diameter) / self.reference_area * (sin(self.angle) ** 2)
-            normal_force_angular_coefficient = 1.1 * (self.length * self.body_diameter) / self.reference_area * (sin(2 * self.angle))
+            normal_force_angular_coefficient = normal_force_coefficient_value / self.angle
 
             momentum_value = 2 * sin(self.angle) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
-            momentum_angular_coefficient = (2 / (self.reference_area * self.body_diameter)) * (self.length * self.final_area - self.volume)
+            momentum_angular_coefficient = momentum_value / self.angle
 
         elif self.body_type == "cone": ### ERRADO (se pá)
 
-            if self.angle == 0:
-                normal_force_coefficient_value = 2 / self.reference_area * abs(self.final_area - self.initial_area)
-            else:
-                normal_force_coefficient_value = (2 / self.reference_area) * abs(self.final_area - self.initial_area) * (sin(angle) / angle)
+            normal_force_coefficient_value = (2 * sin(self.angle) / self.reference_area) * abs(self.final_area - self.initial_area)
 
-            normal_force_angular_coefficient = (2 / self.reference_area) * abs(self.final_area - self.initial_area)
+            normal_force_angular_coefficient = normal_force_coefficient_value / self.angle
 
 
             momentum_value = 2 * sin(self.angle) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
-            momentum_angular_coefficient = (2 / (self.reference_area * self.body_diameter)) * (self.length * self.final_area - self.volume)
+            momentum_angular_coefficient = momentum_value / self.angle
 
         elif self.body_type == "von karman":
 
             # this attribute is only needed with the von karman geometry
-            self.integral = body["rIntegral"]
 
-            normal_force_angular_coefficient = ((4*np.pi)/self.reference_area) * (np.sin(angle)/angle) * (0.5*self.body_diameter) * self.integral
-            normal_force_coefficient_value = normal_force_angular_coefficient * angle
+            normal_force_angular_coefficient = ((4*np.pi)/self.reference_area) * (np.sin(self.angle)/self.angle) * (0.5*self.body_diameter) * self.integral
+            normal_force_coefficient_value = normal_force_angular_coefficient * self.angle
 
-            momentum_value = 2 * sin(angle) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
+            momentum_value = 2 * sin(self.angle) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
             momentum_angular_coefficient = (2 / (self.reference_area * self.body_diameter)) * (self.length * self.final_area - self.volume)
 
         return {
