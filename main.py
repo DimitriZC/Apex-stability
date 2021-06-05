@@ -38,8 +38,8 @@ class Rocket():
         nose_cone_barrowman = BarrowmanBody(foguete.nose, nose_cone_geometry, self.angle).coefficients()
         fuselage_barrowman = BarrowmanBody(foguete.fuselage, fuselage_geometry, self.angle).coefficients()
         boattail_barrowman = BarrowmanBody(foguete.boattail, boattail_geometry, self.angle).coefficients()
-        fins_barrowman = BarrowmanFins(foguete.fins, fins_geometry).coefficients()
-        canards_barrowman = BarrowmanFins(foguete.canards, canards_geometry).coefficients()
+        fins_barrowman = BarrowmanFins(foguete.fins, fins_geometry, self.angle).coefficients()
+        canards_barrowman = BarrowmanFins(foguete.canards, canards_geometry, self.angle).coefficients()
 
         self.components_geometry = [
             nose_cone_geometry,

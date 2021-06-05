@@ -85,7 +85,7 @@ class BarrowmanBody():
 
 class BarrowmanFins():
 
-    def __init__(self, dimensions, body):
+    def __init__(self, dimensions, body, angle):
         """The class recieve two dictionaries with the variables needed for the method
 
         Args:
@@ -104,10 +104,12 @@ class BarrowmanFins():
         self.max_body_diameter = dimensions["max_body_diameter"]
         self.number_of_fins = dimensions["number_of_fins"]
         self.center_of_pressure_pos = body["center_of_pressure_pos"]
-        self.reference_area = body["reference_area"]
+        self.reference_area = dimensions["reference_area"]
         self.fin_area = body["fin_area"]
         self.beta = body["beta"]
         self.sweep_angle = body["sweep_angle"]
+        self.aspect_ratio = body["aspect_ratio"]
+        self.angle = angle
 
     def coefficients(self):
         """Thos method calculats the aerodynamic coefficients of the finset
@@ -115,18 +117,23 @@ class BarrowmanFins():
         Returns:
             (dict): dictionary with the aerodynamic coefficients
         """
+        #==================================================================================================================================================================================================================
+        # barrowman equations, [[[NOT WORKING]]]
+        # normal_force_angular_coefficient_one_fin = ((2 * pi * self.spanwise_length ** 2) / self.reference_area)/(1 + sqrt(1 + ((self.beta * self.spanwise_length ** 2) / (self.fin_area * cos(self.sweep_angle))) ** 2))
 
-        normal_force_angular_coefficient_one_fin = ((2 * pi * self.spanwise_length ** 2) / self.reference_area)/(1 + sqrt(1 + ((self.beta * self.spanwise_length ** 2) / (self.fin_area * cos(self.sweep_angle))) ** 2))
+        # # normal force coefficient derivative for N fins [DOUBLE CHECK THE REFERENCE FOR Ntot (total number of parallel fins that have an interference effect)]
+        # normal_force_angular_coefficient = (self.number_of_fins / 2) * normal_force_angular_coefficient_one_fin
 
-        # normal force coefficient derivative for N fins [DOUBLE CHECK THE REFERENCE FOR Ntot (total number of parallel fins that have an interference effect)]
-        normal_force_angular_coefficient = (self.number_of_fins / 2) * normal_force_angular_coefficient_one_fin
+        # ktb = 1 + (self.max_body_diameter / 2) / (self.spanwise_length + (self.max_body_diameter / 2)) # Correction term for the normal force on the fins due to the body
+        # normal_force_coefficient = ktb * normal_force_angular_coefficient # final normal force coefficient derivative for the fins
+        #==================================================================================================================================================================================================================
+        normal_force_angular_coefficient = ((pi * self.aspect_ratio) / (2 * self.angle) * abs(sin(self.angle) * cos(self.angle)) + (2 * sin(self.angle) ** 2) / self.angle) * (self.fin_area / self.reference_area)
 
-        ktb = 1 + (self.max_body_diameter / 2) / (self.spanwise_length + (self.max_body_diameter / 2)) # Correction term for the normal force on the fins due to the body
-        normal_force_coefficient = ktb * normal_force_angular_coefficient # final normal force coefficient derivative for the fins
+
 
         return {
-            "normal_force_angular_coefficient_one_fin": normal_force_angular_coefficient_one_fin,
+            # "normal_force_angular_coefficient_one_fin": normal_force_angular_coefficient_one_fin,
             "normal_force_angular_coefficient": normal_force_angular_coefficient,
-            "normal_force_coefficient_value": normal_force_coefficient,
+            # "normal_force_coefficient_value": normal_force_coefficient,
             "center_of_pressure_pos": self.center_of_pressure_pos
         }

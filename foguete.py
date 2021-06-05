@@ -9,9 +9,9 @@ The final goal is to configure the rocket here and then run the code.
 
 dados = {
     "rho": 1.225,
-    "Mach": 0.3,
+    "Mach": 0.66,
     "free_stream_velocity": 20,
-    "angle": radians(2),
+    "angle": radians(0.1),
     "sound_velocity": 342
 }
 
@@ -75,7 +75,8 @@ fins = {
     "weight": 179,
     "body_type": "rounded",
     "number_of_fins": 3,
-    "Mach": dados["Mach"]
+    "Mach": dados["Mach"],
+    "reference_area": reference_area
 
 }
 
@@ -90,5 +91,6 @@ canards = {
     "weight": 37,
     "body_type": "rounded",
     "number_of_fins": 3,
-    "Mach": dados["Mach"]
+    "Mach": dados["Mach"],
+    "reference_area": reference_area
 }

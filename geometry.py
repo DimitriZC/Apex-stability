@@ -85,7 +85,7 @@ class Body():
         _r2 = [r**2 for r in _r]
         rIntegral = np.trapz(_r, _x, dx=dx)
         r2Integral = np.trapz(_r2, _x, dx=dx)
-        volume = np.np.pi * r2Integral
+        volume = np.pi * r2Integral
         center_of_pressure_pos = volume / self.reference_area
         center_of_gravity_pos = 1/3 * self.length
 
@@ -145,6 +145,7 @@ class Fins():
 
         # One-sided area of a single fin
         fin_area = (self.root_chord + self.tip_chord) * self.spanwise_length / 2
+        aspect_ratio = (self.spanwise_length ** 2) / fin_area
 
         # Aspec ratio of the fin
         AR = 2 * (self.spanwise_length ** 2) / fin_area
@@ -182,6 +183,7 @@ class Fins():
             "sweep_angle": sweep_angle,
             "reference_area": reference_area,
             "beta": beta,
-            "fin_area": fin_area
+            "fin_area": fin_area,
+            "aspect_ratio": aspect_ratio
         }
 
