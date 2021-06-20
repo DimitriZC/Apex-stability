@@ -25,37 +25,42 @@ class Rocket():
         self.angle = data["angle"]
         self.sound_velocity = data["sound_velocity"]
 
+        self.components = []
+
+        self.components_geometry = [] # temporario so pra rodar
+
+        self.components_barrowman = [] # temporario so pra rodar
+
         # temporary way to call the geometry method
 
-        nose_cone_geometry = Body(foguete.nose).cone()
-        fuselage_geometry = Body(foguete.fuselage).cylinder()
-        boattail_geometry = Body(foguete.boattail).cone()
-        fins_geometry = Fins(foguete.fins).fin()
-        canards_geometry = Fins(foguete.canards).fin()
+        for k, component in enumerate(foguete._rocket):
+            self.components.append(component["name"])
 
-        # temporary way to call barrowman method
+            if component["geometry_method"] == "body":
+                self.components_geometry.append(Body(component).coefficients())
+                self.components_barrowman.append(BarrowmanBody(component, self.components_geometry[k], self.angle).coefficients())
+            elif component["geometry_method"] == "fin":
+                self.components_geometry.append(Fins(component).coefficients())
+                self.components_barrowman.append(BarrowmanFins(component, self.components_geometry[k], self.angle).coefficients())
 
-        nose_cone_barrowman = BarrowmanBody(foguete.nose, nose_cone_geometry, self.angle).coefficients()
-        fuselage_barrowman = BarrowmanBody(foguete.fuselage, fuselage_geometry, self.angle).coefficients()
-        boattail_barrowman = BarrowmanBody(foguete.boattail, boattail_geometry, self.angle).coefficients()
-        fins_barrowman = BarrowmanFins(foguete.fins, fins_geometry, self.angle).coefficients()
-        canards_barrowman = BarrowmanFins(foguete.canards, canards_geometry, self.angle).coefficients()
+# Delete after making tests ====================================================================
+        #     nose_cone_geometry = Body(foguete.nose).coefficients()
+        #     fuselage_geometry = Body(foguete.fuselage).coefficients()
+        #     boattail_geometry = Body(foguete.boattail).coefficients()
+        #     fins_geometry = Fins(foguete.fins).coefficients()
+        #     canards_geometry = Fins(foguete.canards).coefficients()
 
-        self.components_geometry = [
-            nose_cone_geometry,
-            fuselage_geometry,
-            boattail_geometry,
-            fins_geometry,
-            canards_geometry
-        ] # temporario so pra rodar
+        # # temporary way to call barrowman method
 
-        self.components_barrowman = [
-            nose_cone_barrowman,
-            fuselage_barrowman,
-            boattail_barrowman,
-            fins_barrowman,
-            canards_barrowman
-        ] # temporario so pra rodar
+        # nose_cone_barrowman = BarrowmanBody(foguete.nose, nose_cone_geometry, self.angle).coefficients()
+        # fuselage_barrowman = BarrowmanBody(foguete.fuselage, fuselage_geometry, self.angle).coefficients()
+        # boattail_barrowman = BarrowmanBody(foguete.boattail, boattail_geometry, self.angle).coefficients()
+        # fins_barrowman = BarrowmanFins(foguete.fins, fins_geometry, self.angle).coefficients()
+        # canards_barrowman = BarrowmanFins(foguete.canards, canards_geometry, self.angle).coefficients()
+# Delete after making tests ====================================================================
+
+
+
 
     def center_of_gravity_pos(self):
         """this method is responsable to take all components weight and position, and then calculate
@@ -112,7 +117,13 @@ class Rocket():
         cg_pos = self.center_of_gravity_pos()
         cp_pos = self.center_of_pressure_pos()
 
-        return (cp_pos - cg_pos) / (foguete.nose["final_radius"] * 2) #colocar em calibres
+        for component in foguete._rocket:
+            if component["name"] == "nose":
+                reference_diameter = component['final_radius'] * 2
+                break
+
+
+        return (cp_pos - cg_pos) / (reference_diameter) #colocar em calibres
 
     def normal_force_angular_coefficient(self):
         """This methos calculates the resulting normal force angular coefficient for te whole rocket
@@ -121,12 +132,12 @@ class Rocket():
             (float): Normal force angular coefficient of the rocket
         """
 
-        normal_force_of_the_rocket = 0
+        normal_force_angular_coefficient_rocket = 0
 
         for component in self.components_barrowman:
-            normal_force_of_the_rocket += component['normal_force_coefficient_value']
+            normal_force_angular_coefficient_rocket += component['normal_force_angular_coefficient']
 
-        return normal_force_of_the_rocket
+        return normal_force_angular_coefficient_rocket
 
     def normal_force_coefficient(self):
         """This method takes the normal force angular coefficient, and plot the normal force value

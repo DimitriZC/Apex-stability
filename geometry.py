@@ -25,78 +25,80 @@ class Body():
         self.body_diameter = dimensions["body_diameter"] # ???????????????
         self.weight = dimensions["weight"]
         self.position = dimensions["position"]
+        self.body_type = dimensions["body_type"]
 
 
-    def cylinder(self):
-        """This method calculate the geometry properties of a cylindrical body
+    def coefficients(self):
+        if self.body_type == "cylinder":
+            """This method calculate the geometry properties of a cylindrical body
 
-        Returns:
-            (dict): object with the geometry properties
-        """
+            Returns:
+                (dict): object with the geometry properties
+            """
 
-        # Calculate the volume of the body
-        volume = self.initial_area * self.length
+            # Calculate the volume of the body
+            volume = self.initial_area * self.length
 
-        # Calculate the center of pressure
-        center_of_pressure_pos = self.position + (self.length / 2)
-        center_of_gravity_pos = self.position + (self.length / 2)
+            # Calculate the center of pressure
+            center_of_pressure_pos = self.position + (self.length / 2)
+            center_of_gravity_pos = self.position + (self.length / 2)
 
-        return {
-            "volume": volume,
-            "center_of_pressure_pos": center_of_pressure_pos,
-            "center_of_gravity_pos": center_of_gravity_pos,
-            "weight": self.weight,
-            "body_type": "cylinder"
-        }
+            return {
+                "volume": volume,
+                "center_of_pressure_pos": center_of_pressure_pos,
+                "center_of_gravity_pos": center_of_gravity_pos,
+                "weight": self.weight,
+                "body_type": "cylinder"
+            }
 
-    def cone(self):
-        """This method calculate the geometry properties of a conical body
+        if self.body_type == "cone":
+            """This method calculate the geometry properties of a conical body
 
-        Returns:
-            (dict): object with the geometry properties
-        """
-        # Calculate the volume of the body
-        volume = 1/3 * np.pi * self.length * ((self.initial_radius ** 2) + self.initial_radius * self.final_radius + (self.final_radius ** 2))
+            Returns:
+                (dict): object with the geometry properties
+            """
+            # Calculate the volume of the body
+            volume = 1/3 * np.pi * self.length * ((self.initial_radius ** 2) + self.initial_radius * self.final_radius + (self.final_radius ** 2))
 
-        # Calculate the center of pressure
-        center_of_pressure_pos = self.position + ((self.length * self.final_area - volume) / abs(self.final_area - self.initial_area)) # [VER ESSA FÓRMULA]
-        # CG_x_pos: triangle + rectangle cg in respect to area; [PARECE CERTO]
-        center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(self.final_radius - self.initial_radius) / 2)) + (0.5 * min(self.initial_radius, self.final_radius)))) / ((self.initial_radius + self.final_radius) / 2))
+            # Calculate the center of pressure
+            center_of_pressure_pos = self.position + ((self.length * self.final_area - volume) / abs(self.final_area - self.initial_area)) # [VER ESSA FÓRMULA]
+            # CG_x_pos: triangle + rectangle cg in respect to area; [PARECE CERTO]
+            center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(self.final_radius - self.initial_radius) / 2)) + (0.5 * min(self.initial_radius, self.final_radius)))) / ((self.initial_radius + self.final_radius) / 2))
 
-        return{
-            "volume": volume,
-            "center_of_pressure_pos": center_of_pressure_pos,
-            "center_of_gravity_pos": center_of_gravity_pos,
-            "weight": self.weight,
-            "body_type": "cone"
-        }
+            return{
+                "volume": volume,
+                "center_of_pressure_pos": center_of_pressure_pos,
+                "center_of_gravity_pos": center_of_gravity_pos,
+                "weight": self.weight,
+                "body_type": "cone"
+            }
 
-    def von_karman(self):
-        """This method calculate the geometry properties of a von karman geometry
+        if self.body_type == "von karman":
+            """This method calculate the geometry properties of a von karman geometry
 
-        Returns:
-            (dict): object with the geometry properties
-        """
+            Returns:
+                (dict): object with the geometry properties
+            """
 
-        dx = self.length/1000
-        _x = np.arange(0, self.length, dx)
-        _theta = [np.arccos(1 - 2*x/self.length) for x in _x]
-        _r = [(0.5 * self.body_diameter / np.sqrt(np.pi)) * (np.sqrt(theta - 0.5 * np.sin(2 * theta)))  for theta in _theta]
-        _r2 = [r**2 for r in _r]
-        rIntegral = np.trapz(_r, _x, dx=dx)
-        r2Integral = np.trapz(_r2, _x, dx=dx)
-        volume = np.pi * r2Integral
-        center_of_pressure_pos = volume / self.reference_area
-        center_of_gravity_pos = 1/3 * self.length
+            dx = self.length/1000
+            _x = np.arange(0, self.length, dx)
+            _theta = [np.arccos(1 - 2*x/self.length) for x in _x]
+            _r = [(0.5 * self.body_diameter / np.sqrt(np.pi)) * (np.sqrt(theta - 0.5 * np.sin(2 * theta)))  for theta in _theta]
+            _r2 = [r**2 for r in _r]
+            rIntegral = np.trapz(_r, _x, dx=dx)
+            r2Integral = np.trapz(_r2, _x, dx=dx)
+            volume = np.pi * r2Integral
+            center_of_pressure_pos = volume / self.reference_area
+            center_of_gravity_pos = 1/3 * self.length
 
-        return{
-            "volume": volume,
-            "center_of_pressure_pos": center_of_pressure_pos,
-            "center_of_gravity_pos": center_of_gravity_pos,
-            "weight": self.weight,
-            "rIntegral": rIntegral,
-            "body_type": "von karman"
-        }
+            return{
+                "volume": volume,
+                "center_of_pressure_pos": center_of_pressure_pos,
+                "center_of_gravity_pos": center_of_gravity_pos,
+                "weight": self.weight,
+                "rIntegral": rIntegral,
+                "body_type": "von karman"
+            }
 
 
 
@@ -132,7 +134,7 @@ class Fins():
 
 
 
-    def fin(self):
+    def coefficients(self):
         """This method calculate the geometry properties of the fins
 
         Returns:

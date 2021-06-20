@@ -127,13 +127,21 @@ class BarrowmanFins():
         # ktb = 1 + (self.max_body_diameter / 2) / (self.spanwise_length + (self.max_body_diameter / 2)) # Correction term for the normal force on the fins due to the body
         # normal_force_coefficient = ktb * normal_force_angular_coefficient # final normal force coefficient derivative for the fins
         #==================================================================================================================================================================================================================
-        normal_force_angular_coefficient = ((pi * self.aspect_ratio) / (2 * self.angle) * abs(sin(self.angle) * cos(self.angle)) + (2 * sin(self.angle) ** 2) / self.angle) * (self.fin_area / self.reference_area)
+
+        # Cna of one fin
+        normal_force_angular_coefficient_one_fin = ((pi * self.aspect_ratio) / (2 * self.angle) * abs(sin(self.angle) * cos(self.angle)) + (2 * sin(self.angle) ** 2) / self.angle) * (self.fin_area / self.reference_area)
+
+        # Cna for the finset
+        normal_force_angular_coefficient = (self.number_of_fins / 2) * normal_force_angular_coefficient_one_fin
+
+        #Cn of the fin
+        normal_force_coefficient = normal_force_angular_coefficient * self.angle
 
 
 
         return {
-            # "normal_force_angular_coefficient_one_fin": normal_force_angular_coefficient_one_fin,
+            "normal_force_angular_coefficient_one_fin": normal_force_angular_coefficient_one_fin,
             "normal_force_angular_coefficient": normal_force_angular_coefficient,
-            # "normal_force_coefficient_value": normal_force_coefficient,
+            "normal_force_coefficient_value": normal_force_coefficient,
             "center_of_pressure_pos": self.center_of_pressure_pos
         }
