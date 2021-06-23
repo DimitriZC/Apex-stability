@@ -53,7 +53,7 @@ class BarrowmanBody():
             momentum_value = 2 * sin(self.angle) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
             momentum_angular_coefficient = momentum_value / self.angle
 
-        elif self.body_type == "cone": ### ERRADO (se pá)
+        elif self.body_type == "cone": ### ERRADO (se pá) [[[NÃO TA USANDO O COMPRIMENTO DO CONE??????????]]]
 
             normal_force_coefficient_value = (2 * sin(self.angle) / self.reference_area) * abs(self.final_area - self.initial_area)
 
@@ -143,5 +143,7 @@ class BarrowmanFins():
             "normal_force_angular_coefficient_one_fin": normal_force_angular_coefficient_one_fin,
             "normal_force_angular_coefficient": normal_force_angular_coefficient,
             "normal_force_coefficient_value": normal_force_coefficient,
+            "momentum_value": 0,
+            "momentum_angular_coefficient": 0,
             "center_of_pressure_pos": self.center_of_pressure_pos
         }

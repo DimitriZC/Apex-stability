@@ -1,4 +1,4 @@
-from main import Rocket
+from Rocket import Rocket
 from foguete import dados
 
 Foguete = Rocket(dados)
