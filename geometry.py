@@ -63,7 +63,19 @@ class Body():
             # Calculate the center of pressure
             center_of_pressure_pos = self.position + ((self.length * self.final_area - volume) / abs(self.final_area - self.initial_area)) # [VER ESSA FÓRMULA]
             # CG_x_pos: triangle + rectangle cg in respect to area; [PARECE CERTO]
-            center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(self.final_radius - self.initial_radius) / 2)) + (0.5 * min(self.initial_radius, self.final_radius)))) / ((self.initial_radius + self.final_radius) / 2))
+
+            print(type(self.final_radius))
+            if isinstance(self.final_radius, int or float) and isinstance(self.initial_radius, int or float):
+                center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(self.final_radius - self.initial_radius) / 2)) + (0.5 * min(self.initial_radius, self.final_radius)))) / ((self.initial_radius + self.final_radius) / 2))
+            elif isinstance(self.final_radius, np.ndarray):
+                for radius in self.final_radius:
+                     center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(radius - self.initial_radius) / 2)) + (0.5 * min(self.initial_radius, radius)))) / ((self.initial_radius + radius) / 2))
+            elif isinstance(self.initial_radius, np.ndarray):
+                for radius in self.initial_radius:
+                    center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(self.final_radius - radius) / 2)) + (0.5 * min(radius, self.final_radius)))) / ((radius + self.final_radius) / 2))
+            else:
+                center_of_gravity_pos = 0
+
 
             return{
                 "volume": volume,

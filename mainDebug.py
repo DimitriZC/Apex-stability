@@ -1,7 +1,7 @@
 from Rocket import Rocket
-from foguete import dados
+from foguete import dados, _rocket
 
-Foguete = Rocket(dados)
+Foguete = Rocket(dados, _rocket)
 teste = Foguete.center_of_pressure_pos()
 
 
@@ -41,5 +41,5 @@ print(f'''
 
 print(f"CG = {Foguete.center_of_gravity_pos()}")
 print(f"CP = {Foguete.center_of_pressure_pos()}")
-print(f"Cn = {Foguete.normal_force_angular_coefficient()}")
+# print(f"Cna = {Foguete.normal_force_angular_coefficient()}")
 print(f"SM = {Foguete.static_margin()}")

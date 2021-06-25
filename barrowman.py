@@ -1,5 +1,5 @@
 import numpy as np
-from math import pi, sin, sqrt, cos
+from math import pi, sin, sqrt, cos, radians
 
 class BarrowmanBody():
     """This class implements the barrowman methos for axial symetric bodys
@@ -47,30 +47,30 @@ class BarrowmanBody():
         """
 
         if self.body_type == "cylinder":
-            normal_force_coefficient_value = 1.1 * (self.length * self.body_diameter) / self.reference_area * (sin(self.angle) ** 2)
+            normal_force_coefficient_value = 1.1 * (self.length * self.body_diameter) / self.reference_area * (sin(radians(self.angle)) ** 2)
             normal_force_angular_coefficient = normal_force_coefficient_value / self.angle
 
-            momentum_value = 2 * sin(self.angle) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
+            momentum_value = 2 * sin(radians(self.angle)) / (self.reference_area * self.body_diameter) * (self.length * self.initial_area - self.volume)
             momentum_angular_coefficient = momentum_value / self.angle
 
         elif self.body_type == "cone": ### ERRADO (se pá) [[[NÃO TA USANDO O COMPRIMENTO DO CONE??????????]]]
 
-            normal_force_coefficient_value = (2 * sin(self.angle) / self.reference_area) * abs(self.final_area - self.initial_area)
+            normal_force_coefficient_value = (2 * sin(radians(self.angle)) / self.reference_area) * abs(self.final_area - self.initial_area)
 
             normal_force_angular_coefficient = normal_force_coefficient_value / self.angle
 
 
-            momentum_value = 2 * sin(self.angle) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
+            momentum_value = 2 * sin(radians(self.angle)) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
             momentum_angular_coefficient = momentum_value / self.angle
 
         elif self.body_type == "von karman":
 
             # this attribute is only needed with the von karman geometry
 
-            normal_force_angular_coefficient = ((4*np.pi)/self.reference_area) * (np.sin(self.angle)/self.angle) * (0.5*self.body_diameter) * self.integral
+            normal_force_angular_coefficient = ((4*np.pi)/self.reference_area) * (np.sin(radians(self.angle))/self.angle) * (0.5*self.body_diameter) * self.integral
             normal_force_coefficient_value = normal_force_angular_coefficient * self.angle
 
-            momentum_value = 2 * sin(self.angle) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
+            momentum_value = 2 * sin(radians(self.angle)) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
             momentum_angular_coefficient = (2 / (self.reference_area * self.body_diameter)) * (self.length * self.final_area - self.volume)
 
         return {
@@ -129,7 +129,7 @@ class BarrowmanFins():
         #==================================================================================================================================================================================================================
 
         # Cna of one fin
-        normal_force_angular_coefficient_one_fin = ((pi * self.aspect_ratio) / (2 * self.angle) * abs(sin(self.angle) * cos(self.angle)) + (2 * sin(self.angle) ** 2) / self.angle) * (self.fin_area / self.reference_area)
+        normal_force_angular_coefficient_one_fin = ((pi * self.aspect_ratio) / (2 * self.angle) * abs(sin(radians(self.angle)) * cos(radians(self.angle))) + (2 * sin(radians(self.angle)) ** 2) / self.angle) * (self.fin_area / self.reference_area)
 
         # Cna for the finset
         normal_force_angular_coefficient = (self.number_of_fins / 2) * normal_force_angular_coefficient_one_fin

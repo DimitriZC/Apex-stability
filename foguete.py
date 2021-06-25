@@ -11,7 +11,7 @@ dados = {
     "rho": 1.225,
     "Mach": 0.66,
     "free_stream_velocity": 20,
-    "angle": radians(2),
+    "angle": 2,
     "sound_velocity": 342
 }
 
@@ -32,6 +32,23 @@ body = {
     "position": ###,
     "body_type": ###
 },
+
+fin = {
+    "name": ###
+    "geometry_method": 'fin'
+    "thickness": ###
+    "root_chord": ###
+    "tip_chord": ###
+    "spanwise_length": ###
+    "sweep_length": ###
+    "max_body_diameter": ###
+    "position": ###
+    "weight": ###
+    "body_type": ###
+    "number_of_fins": ###
+    "Mach": ###
+    "reference_area": ###
+}
 
 '''
 
