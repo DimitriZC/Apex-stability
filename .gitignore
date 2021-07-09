@@ -1,8 +1,9 @@
 __pycache__
+T_Rockets
 .editorconfig
-aletas.txt
 drag.py
 motor_L110mm.eng
 notes.md
 apagar.py
 apagar2.py
+*.txt

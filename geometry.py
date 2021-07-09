@@ -2,7 +2,7 @@ import numpy as np
 
 class Body():
 
-    def __init__(self, dimensions):
+    def __init__(self, dimensions, material):
         """This class takes a dictionary with the dimension properties of the component to calculate the geometry values
 
         Args:
@@ -18,6 +18,7 @@ class Body():
 
         self.reference_area = dimensions["reference_area"]
         self.initial_radius = dimensions["initial_radius"]
+        self.thickness = dimensions["thickness"]
         self.initial_area = (dimensions["initial_radius"] ** 2) * np.pi
         self.final_radius = dimensions["final_radius"]
         self.final_area = (dimensions["final_radius"] ** 2) * np.pi
@@ -26,6 +27,8 @@ class Body():
         self.weight = dimensions["weight"]
         self.position = dimensions["position"]
         self.body_type = dimensions["body_type"]
+
+        self.material_density = material[dimensions["material"]]
 
 
     def coefficients(self):
@@ -39,9 +42,15 @@ class Body():
             # Calculate the volume of the body
             volume = self.initial_area * self.length
 
+            if self.weight == 0:
+                internal_volume = volume - ((self.initial_radius - self.thickness) ** 2 * np.pi) * (self.length - self.thickness)
+
+                self.weight = self.material_density * internal_volume
+
             # Calculate the center of pressure
             center_of_pressure_pos = self.position + (self.length / 2)
             center_of_gravity_pos = self.position + (self.length / 2)
+            print(f'{self.position}, {self.length} aqui \n {center_of_gravity_pos}')
 
             return {
                 "volume": volume,
@@ -60,21 +69,17 @@ class Body():
             # Calculate the volume of the body
             volume = 1/3 * np.pi * self.length * ((self.initial_radius ** 2) + self.initial_radius * self.final_radius + (self.final_radius ** 2))
 
+            if self.weight == 0:
+                internal_volume = volume - (1/3 * np.pi * (self.length - self.thickness) * ((min(self.initial_radius - self.thickness, 0) ** 2) + min(self.initial_radius - self.thickness, 0) * min(self.final_radius - self.thickness, 0) + (min(self.final_radius - self.thickness, 0) ** 2)))
+
+                self.weight = self.material_density * internal_volume
+
             # Calculate the center of pressure
             center_of_pressure_pos = self.position + ((self.length * self.final_area - volume) / abs(self.final_area - self.initial_area)) # [VER ESSA FÓRMULA]
             # CG_x_pos: triangle + rectangle cg in respect to area; [PARECE CERTO]
 
-            print(type(self.final_radius))
-            if isinstance(self.final_radius, int or float) and isinstance(self.initial_radius, int or float):
-                center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(self.final_radius - self.initial_radius) / 2)) + (0.5 * min(self.initial_radius, self.final_radius)))) / ((self.initial_radius + self.final_radius) / 2))
-            elif isinstance(self.final_radius, np.ndarray):
-                for radius in self.final_radius:
-                     center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(radius - self.initial_radius) / 2)) + (0.5 * min(self.initial_radius, radius)))) / ((self.initial_radius + radius) / 2))
-            elif isinstance(self.initial_radius, np.ndarray):
-                for radius in self.initial_radius:
-                    center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(self.final_radius - radius) / 2)) + (0.5 * min(radius, self.final_radius)))) / ((radius + self.final_radius) / 2))
-            else:
-                center_of_gravity_pos = 0
+            center_of_gravity_pos = self.position + ((self.length * (((2 / 3) * (abs(self.final_radius - self.initial_radius) / 2)) + (0.5 * min(self.initial_radius, self.final_radius)))) / ((self.initial_radius + self.final_radius) / 2))
+
 
 
             return{

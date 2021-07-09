@@ -36,7 +36,7 @@ class BarrowmanBody():
         self.center_of_pressure_pos = body["center_of_pressure_pos"]
         self.angle = angle
         # for the von karman geometry
-        if self.body_type == "von Karman":
+        if self.body_type == "von karman":
             self.integral = body["rIntegral"]
 
     def coefficients(self):

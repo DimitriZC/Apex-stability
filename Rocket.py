@@ -32,8 +32,6 @@ class Rocket():
 
         self.components_barrowman = [] # temporario so pra rodar
 
-        # temporary way to call the geometry method
-
         for k, component in enumerate(self._rocket):
             self.components.append(component["name"])
 

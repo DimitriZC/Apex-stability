@@ -22,14 +22,16 @@ dados = {
 # Model of the geometry inputs for the body parts
 body = {
     "name": ###,
-    "reference_area": ###,
+    "reference_area": ###, #m²
     "geometry_method" = "body",
-    "initial_radius": ###,
-    "final_radius": ###,
-    "length": ###,
-    "body_diameter": ###,
-    "weight": ###,
-    "position": ###,
+    "initial_radius": ###, #m
+    "thickness": ###, #m
+    "final_radius": ###, #m
+    "length": ###, #m
+    "body_diameter": ###, #m
+    "weight": ###, #g
+    "position": ###, #m
+    "material": ###,
     "body_type": ###
 },
 
@@ -52,8 +54,88 @@ fin = {
 
 '''
 
-reference_area = ((0.0792 / 2) ** 2) * pi
+reference_area = ((0.1 / 2) ** 2) * pi
 
+_rocket = [
+    {
+        "name": "nose",
+        "geometry_method": "body",
+        "reference_area": reference_area,
+        "initial_radius": 0.0,
+        "thickness": 0.008,
+        "final_radius": 0.10 / 2,
+        "length": 0.300,
+        "body_diameter": 0.0792, #pra arrasto da pra ver dps
+        "weight": 120,
+        "position": 0,
+        "material": "glass_fiber",
+        "body_type": "von karman",
+    },
+
+    {
+        "name": "fuselage",
+        "geometry_method": "body",
+        "reference_area": reference_area,
+        "initial_radius": 0.10 / 2,
+        "final_radius": 0.10 / 2,
+        "length": 3.0,
+        "body_diameter": 0.10, #pra arrasto da pra ver dps
+        "weight": 1500,
+        "position": 0.300,
+        "body_type": "cylinder",
+    },
+
+    {
+        "name": "boattail",
+        "geometry_method": "body",
+        "reference_area": reference_area,
+        "initial_radius": 0.10 / 2,
+        "final_radius": 0.07 / 2,
+        "length": 0.12,
+        "body_diameter": 0.0792, #pra arrasto da pra ver dps
+        "weight": 300,
+        "position": 3.3,
+        "body_type": "cone",
+    },
+
+    {
+        "name": "fin",
+        "geometry_method": "fin",
+        "thickness": 0.0023, # (m)
+        "root_chord": 0.45, # (m)
+        "tip_chord": 0.30,
+        "spanwise_length": 0.40,
+        "sweep_length": 0.40,
+        "max_body_diameter": 0.10,
+        "position": 2.85,
+        "weight": 100,
+        "body_type": "rounded",
+        "number_of_fins": 3,
+        "Mach": dados["Mach"],
+        "reference_area": reference_area
+
+    },
+
+    {
+        "name": "canard",
+        "geometry_method": "fin",
+        "thickness": 0.0023, # (m)
+        "root_chord": 0.45, # (m)
+        "tip_chord": 0.30,
+        "spanwise_length": 0.40,
+        "sweep_length": 0.40,
+        "max_body_diameter": 0.10,
+        "position": 0.50,
+        "weight": 167,
+        "body_type": "rounded",
+        "number_of_fins": 3,
+        "Mach": dados["Mach"],
+        "reference_area": reference_area
+    }
+]
+
+'''
+# A-22
 _rocket = [
     {
         "name": "nose",
@@ -129,3 +211,4 @@ _rocket = [
         "reference_area": reference_area
     }
 ]
+'''
