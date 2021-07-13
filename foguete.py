@@ -1,4 +1,5 @@
-from math import pi, radians
+from math import pi
+from materialDensity import material_density
 
 """
 This file have the data for the constructors of the methods;
@@ -68,7 +69,7 @@ _rocket = [
         "body_diameter": 0.0792, #pra arrasto da pra ver dps
         "weight": 120,
         "position": 0,
-        "material": "glass_fiber",
+        "material": material_density["glass_fiber"],
         "body_type": "von karman",
     },
 
@@ -77,11 +78,13 @@ _rocket = [
         "geometry_method": "body",
         "reference_area": reference_area,
         "initial_radius": 0.10 / 2,
+        "thickness": 0.008,
         "final_radius": 0.10 / 2,
         "length": 3.0,
         "body_diameter": 0.10, #pra arrasto da pra ver dps
         "weight": 1500,
         "position": 0.300,
+        "material": material_density["glass_fiber"],
         "body_type": "cylinder",
     },
 
@@ -90,11 +93,13 @@ _rocket = [
         "geometry_method": "body",
         "reference_area": reference_area,
         "initial_radius": 0.10 / 2,
+        "thickness": 0.008,
         "final_radius": 0.07 / 2,
         "length": 0.12,
         "body_diameter": 0.0792, #pra arrasto da pra ver dps
         "weight": 300,
         "position": 3.3,
+        "material": material_density["glass_fiber"],
         "body_type": "cone",
     },
 
@@ -112,6 +117,7 @@ _rocket = [
         "body_type": "rounded",
         "number_of_fins": 3,
         "Mach": dados["Mach"],
+        "material": material_density["glass_fiber"],
         "reference_area": reference_area
 
     },
@@ -130,10 +136,10 @@ _rocket = [
         "body_type": "rounded",
         "number_of_fins": 3,
         "Mach": dados["Mach"],
+        "material": material_density["glass_fiber"],
         "reference_area": reference_area
     }
 ]
-
 '''
 # A-22
 _rocket = [

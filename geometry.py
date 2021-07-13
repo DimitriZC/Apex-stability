@@ -2,7 +2,7 @@ import numpy as np
 
 class Body():
 
-    def __init__(self, dimensions, material):
+    def __init__(self, dimensions):
         """This class takes a dictionary with the dimension properties of the component to calculate the geometry values
 
         Args:
@@ -27,8 +27,7 @@ class Body():
         self.weight = dimensions["weight"]
         self.position = dimensions["position"]
         self.body_type = dimensions["body_type"]
-
-        self.material_density = material[dimensions["material"]]
+        self.material_density = dimensions["material"]
 
 
     def coefficients(self):
@@ -50,7 +49,6 @@ class Body():
             # Calculate the center of pressure
             center_of_pressure_pos = self.position + (self.length / 2)
             center_of_gravity_pos = self.position + (self.length / 2)
-            print(f'{self.position}, {self.length} aqui \n {center_of_gravity_pos}')
 
             return {
                 "volume": volume,

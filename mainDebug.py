@@ -56,3 +56,5 @@ print(f"CG = {Foguete.center_of_gravity_pos()}")
 print(f"CP = {Foguete.center_of_pressure_pos()}")
 # print(f"Cna = {Foguete.normal_force_angular_coefficient()}")
 print(f"SM = {Foguete.static_margin()}")
+
+Foguete.plot_coefficients()
