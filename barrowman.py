@@ -82,8 +82,49 @@ class BarrowmanBody():
 
         }
 
-    def normal_force_coefficient(self):
-        pass
+    def normal_force_coefficients(self):
+        if self.body_type == "cylinder":
+            normal_force_coefficient_value = 1.1 * (self.length * self.body_diameter) / self.reference_area * (sin(radians(self.angle)) ** 2)
+            normal_force_angular_coefficient = normal_force_coefficient_value / self.angle
+
+        elif self.body_type == "cone": ### ERRADO (se pá) [[[NÃO TA USANDO O COMPRIMENTO DO CONE??????????]]]
+
+            normal_force_coefficient_value = (2 * sin(radians(self.angle)) / self.reference_area) * abs(self.final_area - self.initial_area)
+
+            normal_force_angular_coefficient = normal_force_coefficient_value / self.angle
+
+
+        elif self.body_type == "von karman":
+
+            # this attribute is only needed with the von karman geometry
+
+            normal_force_angular_coefficient = ((4*np.pi)/self.reference_area) * (np.sin(radians(self.angle))/self.angle) * (0.5*self.body_diameter) * self.integral
+            normal_force_coefficient_value = normal_force_angular_coefficient * self.angle
+
+
+        return {
+            "normal_force_coefficient_value": normal_force_coefficient_value,
+            "normal_force_angular_coefficient": normal_force_angular_coefficient,
+        }
+    def momentum_coefficients(self):
+        if self.body_type == "cylinder":
+            momentum_value = 2 * sin(radians(self.angle)) / (self.reference_area * self.body_diameter) * (self.length * self.initial_area - self.volume)
+            momentum_angular_coefficient = momentum_value / self.angle
+
+        elif self.body_type == "cone": ### ERRADO (se pá) [[[NÃO TA USANDO O COMPRIMENTO DO CONE??????????]]]
+
+            momentum_value = 2 * sin(radians(self.angle)) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
+            momentum_angular_coefficient = momentum_value / self.angle
+
+        elif self.body_type == "von karman":
+
+            momentum_value = 2 * sin(radians(self.angle)) / (self.reference_area * self.body_diameter) * (self.length * self.final_area - self.volume)
+            momentum_angular_coefficient = (2 / (self.reference_area * self.body_diameter)) * (self.length * self.final_area - self.volume)
+
+        return {
+            "momentum_value": momentum_value,
+            "momentum_angular_coefficient": momentum_angular_coefficient,
+        }
 
 
 class BarrowmanFins():

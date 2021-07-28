@@ -169,7 +169,12 @@ class Rocket():
         for a range of AoA
         """
 
-        #plotar cn x alpha
+        momentum_coefficient_rocket = 0
+
+        for component in self.components_barrowman:
+            momentum_coefficient_rocket += component["momentum_value"]
+
+        return momentum_coefficient_rocket
         pass
 
     def plot_coefficients(self, plot=True):
@@ -177,29 +182,41 @@ class Rocket():
         This method will plot the Cn, Cp, Cd and damping coefficient with respect to alpha
         """
 
-        angles = np.arange(-20, 20, 1)
+        angles = np.arange(0.1, 20, 1)
         normal_force_coefficient = list()
         momentum_coefficient = list()
 
-        angular_momentum_coefficient = self.momentum_angular_coefficient()
         normal_force_angular_coefficient = self.normal_force_angular_coefficient()
 
         for aoa in angles:
             normal_force_coefficient.append(normal_force_angular_coefficient * aoa)
-            momentum_coefficient.append(angular_momentum_coefficient * aoa)
+
+            for k, component in enumerate(self._rocket):
+                #This loop is chanching the aoa to analyse the angular coefficient for the momentun, since he isn't linear
+
+                if component["geometry_method"] == "body":
+                    self.components_barrowman.append(BarrowmanBody(component, self.components_geometry[k], aoa).momentum_coefficients())
+                elif component["geometry_method"] == "fin":
+                    self.components_barrowman.append(BarrowmanFins(component, self.components_geometry[k], aoa).coefficients())
+
+            #calculating the momentum for the new aoa
+            momentum_coefficient.append(self.momentum_coefficient())
+
+
+
 
         if plot:
             fig = plt.figure()
 
             Cn = fig.add_subplot(121)
-            Cn.plot(normal_force_coefficient, angles, color="#000")
+            Cn.plot(angles, normal_force_coefficient, color="#000")
             Cn.grid()
             Cn.set_title("Normal Force Coefficient")
             Cn.set_xlabel("aoa")
             Cn.set_ylabel("Cn")
 
             Cm = fig.add_subplot(122)
-            Cm.plot(momentum_coefficient, angles, color="#000")
+            Cm.plot(angles, momentum_coefficient, color="#000")
             Cm.grid()
             Cm.set_title("Momentum Coefficient")
             Cm.set_xlabel("aoa")
