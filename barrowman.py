@@ -82,6 +82,9 @@ class BarrowmanBody():
 
         }
 
+    def normal_force_coefficient(self):
+        pass
+
 
 class BarrowmanFins():
 
