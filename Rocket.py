@@ -117,16 +117,21 @@ class Rocket():
             float: static margin
         """
 
-        cg_pos = self.center_of_gravity_pos()
-        cp_pos = self.center_of_pressure_pos()
+        # cg_pos = self.center_of_gravity_pos()
+        # cp_pos = self.center_of_pressure_pos()
 
-        for component in self._rocket:
-            if component["name"] == "nose":
-                reference_diameter = component['final_radius'] * 2
-                break
+        # for component in self._rocket:
+        #     if component["name"] == "nose":
+        #         reference_diameter = component['final_radius'] * 2
+        #         break
 
 
-        return (cp_pos - cg_pos) / (reference_diameter) #colocar em calibres
+        # return (cp_pos - cg_pos) / (reference_diameter) #colocar em calibres
+
+        Cma = self.momentum_coefficient() * self.angle
+        Cna = self.normal_force_angular_coefficient()
+
+        return Cma/Cna
 
     def normal_force_angular_coefficient(self):
         """This methos calculates the resulting normal force angular coefficient for te whole rocket
@@ -175,7 +180,7 @@ class Rocket():
             momentum_coefficient_rocket += component["momentum_value"]
 
         return momentum_coefficient_rocket
-        pass
+
 
     def plot_coefficients(self, plot=True):
         """
@@ -206,18 +211,19 @@ class Rocket():
 
 
         if plot:
+
+            plt.style.use(['science', 'notebook', 'grid'])
+
             fig = plt.figure()
 
             Cn = fig.add_subplot(121)
             Cn.plot(angles, normal_force_coefficient, color="#000")
-            Cn.grid()
             Cn.set_title("Normal Force Coefficient")
             Cn.set_xlabel("aoa")
             Cn.set_ylabel("Cn")
 
             Cm = fig.add_subplot(122)
             Cm.plot(angles, momentum_coefficient, color="#000")
-            Cm.grid()
             Cm.set_title("Momentum Coefficient")
             Cm.set_xlabel("aoa")
             Cm.set_ylabel("Cm")
