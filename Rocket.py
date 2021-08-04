@@ -117,21 +117,16 @@ class Rocket():
             float: static margin
         """
 
-        # cg_pos = self.center_of_gravity_pos()
-        # cp_pos = self.center_of_pressure_pos()
+        cg_pos = self.center_of_gravity_pos()
+        cp_pos = self.center_of_pressure_pos()
 
-        # for component in self._rocket:
-        #     if component["name"] == "nose":
-        #         reference_diameter = component['final_radius'] * 2
-        #         break
+        for component in self._rocket:
+            if component["name"] == "nose":
+                reference_diameter = component['final_radius'] * 2
+                break
 
+        return (cp_pos - cg_pos) / (reference_diameter) #colocar em calibres
 
-        # return (cp_pos - cg_pos) / (reference_diameter) #colocar em calibres
-
-        Cma = self.momentum_coefficient() * self.angle
-        Cna = self.normal_force_angular_coefficient()
-
-        return Cma/Cna
 
     def normal_force_angular_coefficient(self):
         """This methos calculates the resulting normal force angular coefficient for te whole rocket
@@ -147,39 +142,62 @@ class Rocket():
 
         return normal_force_angular_coefficient_rocket
 
-    def normal_force_coefficient(self):
+    def normal_force_coefficient(self, use_angle = False, angle = 0):
         """This method takes the normal force angular coefficient, and plot the normal force value
         for a range of AoA
         """
 
-        #plotar cn x alpha
-        pass
+        if use_angle:
+            aoa = angle
+        else:
+            aoa = self.angle
 
-    def momentum_angular_coefficient(self):
+        rocket_normal_force_coefficient = self.normal_force_angular_coefficient() * aoa
+
+        return rocket_normal_force_coefficient
+
+    def angular_momentum_coefficient(self):
         """This methos calculates the resulting momentum angular coefficient for te whole rocket
 
         Returns:
             (float): Normal force angular coefficient of the rocket
         """
 
-        momentum_angular_coefficient_rocket = 0
+        # angular_momentum_coefficient_rocket = 0
 
-        for component in self.components_barrowman:
-            momentum_angular_coefficient_rocket += component["momentum_angular_coefficient"]
+        # for component in self.components_barrowman:
+        #     angular_momentum_coefficient_rocket += component["angular_momentum_coefficient"]
 
-        return momentum_angular_coefficient_rocket
+        angular_momentum_coefficient_rocket = - (self.static_margin() * self.normal_force_angular_coefficient())
 
-    def momentum_coefficient(self):
+        return angular_momentum_coefficient_rocket
+
+    def momentum_coefficient(self, use_angle  = False, angle = 0, barrowman = False):
         """This method takes the momentum coefficient, and plot the normal force value
         for a range of AoA
         """
 
-        momentum_coefficient_rocket = 0
+        if barrowman:
+            momentum_coefficient_rocket = 0
 
-        for component in self.components_barrowman:
-            momentum_coefficient_rocket += component["momentum_value"]
+            for component in self.components_barrowman:
+                momentum_coefficient_rocket += component["momentum_value"]
 
-        return momentum_coefficient_rocket
+            return momentum_coefficient_rocket
+
+
+
+        if use_angle:
+            aoa = angle
+        else:
+            aoa = self.angle
+
+
+        rocket_angular_momentum_coefficient = self.angular_momentum_coefficient()
+
+        rocket_momentum_coefficient = rocket_angular_momentum_coefficient * aoa
+
+        return rocket_momentum_coefficient
 
 
     def plot_coefficients(self, plot=True):
@@ -190,6 +208,7 @@ class Rocket():
         angles = np.arange(0.1, 20, 1)
         normal_force_coefficient = list()
         momentum_coefficient = list()
+        static_margin = list()
 
         normal_force_angular_coefficient = self.normal_force_angular_coefficient()
 
@@ -200,12 +219,14 @@ class Rocket():
                 #This loop is chanching the aoa to analyse the angular coefficient for the momentun, since he isn't linear
 
                 if component["geometry_method"] == "body":
-                    self.components_barrowman.append(BarrowmanBody(component, self.components_geometry[k], aoa).momentum_coefficients())
+                    self.components_barrowman[k] = (BarrowmanBody(component, self.components_geometry[k], aoa).coefficients())
                 elif component["geometry_method"] == "fin":
-                    self.components_barrowman.append(BarrowmanFins(component, self.components_geometry[k], aoa).coefficients())
+                    self.components_barrowman[k] = (BarrowmanFins(component, self.components_geometry[k], aoa).coefficients())
 
             #calculating the momentum for the new aoa
-            momentum_coefficient.append(self.momentum_coefficient())
+            momentum_coefficient.append(self.angular_momentum_coefficient() * aoa)
+            # print(f'Cma => {self.angular_momentum_coefficient()} aoa => {aoa} ==> {self.angular_momentum_coefficient() * aoa}')
+            static_margin.append(self.static_margin())
 
 
 
@@ -214,20 +235,28 @@ class Rocket():
 
             plt.style.use(['science', 'notebook', 'grid'])
 
-            fig = plt.figure()
 
-            Cn = fig.add_subplot(121)
+
+            fig, axes = plt.subplots(2, 2)
+
+            Cn = axes[0][0]
             Cn.plot(angles, normal_force_coefficient, color="#000")
-            Cn.set_title("Normal Force Coefficient")
+            # Cn.set_title("Normal Force Coefficient")
             Cn.set_xlabel("aoa")
             Cn.set_ylabel("Cn")
 
-            Cm = fig.add_subplot(122)
+            SM = axes[0][1]
+            SM.plot(angles, static_margin, color="#000")
+            # SM.set_title("Static Margin")
+            SM.set_xlabel("aoa")
+            SM.set_ylabel("SM")
+
+            Cm = axes[1][0]
             Cm.plot(angles, momentum_coefficient, color="#000")
-            Cm.set_title("Momentum Coefficient")
+            # Cm.set_title("Momentum Coefficient")
             Cm.set_xlabel("aoa")
             Cm.set_ylabel("Cm")
 
             plt.show()
-        return normal_force_coefficient, momentum_coefficient
+        return normal_force_coefficient, static_margin
 

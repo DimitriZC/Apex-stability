@@ -105,7 +105,9 @@ class BarrowmanBody():
         return {
             "normal_force_coefficient_value": normal_force_coefficient_value,
             "normal_force_angular_coefficient": normal_force_angular_coefficient,
+            "center_of_pressure_pos" : self.center_of_pressure_pos
         }
+
     def momentum_coefficients(self):
         if self.body_type == "cylinder":
             momentum_value = 2 * sin(radians(self.angle)) / (self.reference_area * self.body_diameter) * (self.length * self.initial_area - self.volume)
@@ -124,6 +126,7 @@ class BarrowmanBody():
         return {
             "momentum_value": momentum_value,
             "momentum_angular_coefficient": momentum_angular_coefficient,
+            "center_of_pressure_pos" : self.center_of_pressure_pos
         }
 
 
