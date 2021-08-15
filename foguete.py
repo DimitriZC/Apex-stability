@@ -56,7 +56,7 @@ fin = {
 '''
 
 reference_area = ((0.0792 / 2) ** 2) * pi
-
+#[[[The name of the nosecone component must be "nose" cause its used on some Rocket.py methods]]]
 _rocket = [
     {
         "name": "nose",

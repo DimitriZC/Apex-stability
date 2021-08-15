@@ -50,14 +50,7 @@ class Rocket():
         #     nose_cone_geometry = Body(rocket.nose).coefficients()
         #     fuselage_geometry = Body(rocket.fuselage).coefficients()
         #     boattail_geometry = Body(rocket.boattail).coefficients()
-        #     fins_geometry = Fins(rocket.fins).coefficients()
-        #     canards_geometry = Fins(rocket.canards).coefficients()
-
-        # # temporary way to call barrowman method
-
-        # nose_cone_barrowman = BarrowmanBody(rocket.nose, nose_cone_geometry, self.angle).coefficients()
-        # fuselage_barrowman = BarrowmanBody(rocket.fuselage, fuselage_geometry, self.angle).coefficients()
-        # boattail_barrowman = BarrowmanBody(rocket.boattail, boattail_geometry, self.angle).coefficients()
+        #     fins_geometry = Fins(rocket.fins).coefficiecomponent['final_radius'] * 2ail, boattail_geometry, self.angle).coefficients()
         # fins_barrowman = BarrowmanFins(rocket.fins, fins_geometry, self.angle).coefficients()
         # canards_barrowman = BarrowmanFins(rocket.canards, canards_geometry, self.angle).coefficients()
 # Delete after making tests ====================================================================
@@ -172,9 +165,14 @@ class Rocket():
 
         return angular_momentum_coefficient_rocket
 
-    def momentum_coefficient(self, use_angle  = False, angle = 0, barrowman = False):
+    def momentum_coefficient(self, use_angle = False, angle = 0, barrowman = False):
         """This method takes the momentum coefficient, and plot the normal force value
         for a range of AoA
+
+        Args:
+            use_angle (boolean): set to True if you want to set the angle of attack manually;
+            angle (float): Value of the Angle of attack to be used if use_angle == True;
+            Barrowman (boolean): temporary argument to test barrowman method (results are really bad)
         """
 
         if barrowman:
@@ -199,13 +197,31 @@ class Rocket():
 
         return rocket_momentum_coefficient
 
+    def damping_ratio(self):
+
+        # Calcular Momento de inercia do foguete
+        # Estimar frequencia natural ????
+        # Tirar o m'
+        # Verificar se o x_nozzle é o cp do bocal do foguete
+        # Se o m' está junto da somatoria o Cna (acho q não)
+
+        damping_ratio = 0
+
+        for component in self._rocket:
+            if component["name"] == "nose":
+                reference_area = np.pi * component['final_radius'] ** 2
+                break
+
+
+        return damping_ratio
+
 
     def plot_coefficients(self, plot=True):
         """
         This method will plot the Cn, Cp, Cd and damping coefficient with respect to alpha
         """
 
-        angles = np.arange(0.1, 20, 1)
+        angles = np.arange(0.1, 13, 0.5)
         normal_force_coefficient = list()
         momentum_coefficient = list()
         static_margin = list()
@@ -213,7 +229,9 @@ class Rocket():
         normal_force_angular_coefficient = self.normal_force_angular_coefficient()
 
         for aoa in angles:
-            normal_force_coefficient.append(normal_force_angular_coefficient * aoa)
+            # normal_force_coefficient.append(normal_force_angular_coefficient * aoa)
+            normal_force_coefficient.append(self.normal_force_coefficient(use_angle = True, angle = aoa))
+
 
             for k, component in enumerate(self._rocket):
                 #This loop is chanching the aoa to analyse the angular coefficient for the momentun, since he isn't linear
