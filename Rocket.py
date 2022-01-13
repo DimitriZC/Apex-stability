@@ -172,7 +172,7 @@ class Rocket():
         #plotar cn x alpha
         pass
 
-    def plot_coefficients(self, plot=True):
+    def plot_coefficients(self, plot=True, save=False):
         """
         This method will plot the Cn, Cp, Cd and damping coefficient with respect to alpha
         """
@@ -204,7 +204,10 @@ class Rocket():
             Cm.set_title("Momentum Coefficient")
             Cm.set_xlabel("aoa")
             Cm.set_ylabel("Cm")
-
-            plt.show()
+            
+            if save:
+                plt.savefig("./img/plot.png")
+            else:
+                plt.show()
         return normal_force_coefficient, momentum_coefficient
 

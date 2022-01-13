@@ -63,4 +63,4 @@ print(f"CP = {Foguete.center_of_pressure_pos()}")
 # print(f"Cna = {Foguete.normal_force_angular_coefficient()}")
 print(f"SM = {Foguete.static_margin()}")
 
-Foguete.plot_coefficients()
+Foguete.plot_coefficients(save=True)
