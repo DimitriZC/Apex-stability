@@ -1,8 +1,14 @@
 from Rocket import Rocket
 from foguete import dados, _rocket
 
-Foguete = Rocket(dados, _rocket)
+
+"""
+This file is been used to test the formulas and output all component values.
+"""
+
+Foguete = Rocket(dados, _rocket) # rocket been constructed with foguete.py data.
 teste = Foguete.center_of_pressure_pos()
+Foguete.plot_coefficients()
 
 
 print(f'''

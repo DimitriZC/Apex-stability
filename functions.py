@@ -1,6 +1,11 @@
 from math import sqrt, sin, pi, cos, log
 import numpy as np
 from time import time
+'''
+This file was the first implementation of the formulas.
+All the formulas are now in the Barrowman and Geometry file.
+Some of the formulas presented here might be wrong, so do not use this file.
+'''
 
 start_time = time()
 

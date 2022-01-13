@@ -1,6 +1,10 @@
 import functions
 from math import pi, radians
 
+'''
+This file was the first way to test some formulas. He is not been used anymore.
+'''
+
 reference_area = ((0.0792 / 2) ** 2) * pi
 boattail_initial_area = ((0.0832 / 2) ** 2) * pi
 boattail_final_area = ((0.065 / 2) ** 2) * pi

@@ -2,7 +2,7 @@ from math import pi
 from materialDensity import material_density
 
 """
-This file have the data for the constructors of the methods;
+This file contains data for the constructors;
 The final goal is to configure the rocket here and then run the code.
 """
 
@@ -57,6 +57,7 @@ fin = {
 
 reference_area = ((0.1 / 2) ** 2) * pi
 
+# This object will be exported to the analisys file
 _rocket = [
     {
         "name": "nose",
