@@ -1,0 +1,106 @@
+,name,geometry_method,reference_area,initial_radius,thickness,final_radius,length,body_diameter,weight,position,material,body_type,,name,geometry_method,thickness,root_chord,tip_chord,spanwise_length,sweep_length,max_body_diameter,position,material,weight,body_type,number_of_fins,Mach,reference_area
+NOME DO FOGUETE,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.1,0.1,0.0792,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-2,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.1,0.15,0.0792,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-3,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.1,0.2,0.0792,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-4,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.1,0.25,0.0792,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-5,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.1,0.3,0.0792,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-6,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.12,0.1,0.0792,1.69,glass_fiber,168.498,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-7,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.12,0.15,0.0792,1.69,glass_fiber,168.498,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-8,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.12,0.2,0.0792,1.69,glass_fiber,168.498,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-9,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.12,0.25,0.0792,1.69,glass_fiber,168.498,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-10,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.12,0.3,0.0792,1.69,glass_fiber,168.498,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-11,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.14,0.1,0.0792,1.69,glass_fiber,196.581,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-12,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.14,0.15,0.0792,1.69,glass_fiber,196.581,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-13,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.14,0.2,0.0792,1.69,glass_fiber,196.581,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-14,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.14,0.25,0.0792,1.69,glass_fiber,196.581,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-15,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.14,0.3,0.0792,1.69,glass_fiber,196.581,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-16,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.16,0.1,0.0792,1.69,glass_fiber,224.664,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-17,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.16,0.15,0.0792,1.69,glass_fiber,224.664,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-18,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.16,0.2,0.0792,1.69,glass_fiber,224.664,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-19,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.16,0.25,0.0792,1.69,glass_fiber,224.664,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-20,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.16,0.3,0.0792,1.69,glass_fiber,224.664,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-21,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.18,0.1,0.0792,1.69,glass_fiber,252.747,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-22,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.18,0.15,0.0792,1.69,glass_fiber,252.747,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-23,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.18,0.2,0.0792,1.69,glass_fiber,252.747,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-24,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.18,0.25,0.0792,1.69,glass_fiber,252.747,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-25,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.18,0.3,0.0792,1.69,glass_fiber,252.747,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-26,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.2,0.1,0.0792,1.69,glass_fiber,280.83,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-27,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.2,0.15,0.0792,1.69,glass_fiber,280.83,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-28,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.2,0.15,0.0792,1.69,glass_fiber,280.83,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-29,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.2,0.2,0.0792,1.69,glass_fiber,280.83,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-30,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.2,0.25,0.0792,1.69,glass_fiber,280.83,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-31,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.12,0.3,0.0792,1.69,glass_fiber,168.498,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-32,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.22,0.1,0.0792,1.69,glass_fiber,308.913,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-33,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.22,0.15,0.0792,1.69,glass_fiber,308.913,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-34,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.22,0.2,0.0792,1.69,glass_fiber,308.913,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,
+HF-35,nose,body,reference_area,0,0.008,0.0792 / 2,0.23,0.0792,134,0,glass_fiber,von karman,,fin,fin,0.0023,0.18,0.04,0.22,0.25,0.0792,1.69,glass_fiber,308.913,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,0.0792 / 2,0.008,0.0792 / 2,1.61,0.0792,1445,0.23,glass_fiber,cylinder,,canard,fin,0.0023,0.06,0.02,0.08,0.09,0.0792,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,0.0792 / 2,0.008,0.05 / 2,0.06,0.0792,44.9,2.73,glass_fiber,cone,,,,,,,,,,,,,,,,

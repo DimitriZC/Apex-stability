@@ -54,4 +54,4 @@ print(f"Cm = {Foguete.momentum_coefficient()}")
 print(f"Cm (Barrowman) = {Foguete.momentum_coefficient(barrowman = True)}")
 print(f"SM = {Foguete.static_margin()}")
 
-Foguete.plot_coefficients()
+Foguete.plot_coefficients(plot=False)
