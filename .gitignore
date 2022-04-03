@@ -7,3 +7,4 @@ notes.md
 apagar.py
 apagar2.py
 *.txt
+!requirements.txt
