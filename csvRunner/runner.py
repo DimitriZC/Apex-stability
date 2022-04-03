@@ -187,7 +187,8 @@ for i in range(0, num_of_rockets * 3, 3):
         for i, v in enumerate(file):
             if "_rocket" in v:
                 limit = i
-        for line in file[0:limit]:
+                break
+        for line in file[0:67]:
             f.write(f'{line}\n')
         f.write(txt_foguete)
 
