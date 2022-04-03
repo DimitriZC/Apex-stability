@@ -10,7 +10,7 @@ class Rocket():
     This class takes all components coefficients and calculate them for the whole rocket
     """
 
-    def __init__(self, data, _rocket):
+    def __init__(self, data, _rocket, internal_components):
         """
         data is an object that contains the basic informations.
         Theose are the general variables that are going to be used by any of the methods
@@ -22,6 +22,7 @@ class Rocket():
             angle (float): angle of attack (rad)
             sound_velocity (float): sound velocity (m/s)
             _rocket (list): list of dictionaries with components data
+            internal_components (list): list of dictionaries with internal components data
         """
         self.rho = data["rho"]
         self.Mach = data["Mach"]
@@ -29,6 +30,7 @@ class Rocket():
         self.angle = data["angle"]
         self.sound_velocity = data["sound_velocity"]
         self._rocket = _rocket
+        self.internal_components = internal_components
 
         self.components = []
 
@@ -45,6 +47,7 @@ class Rocket():
             elif component["geometry_method"] == "fin":
                 self.components_geometry.append(Fins(component).coefficients())
                 self.components_barrowman.append(BarrowmanFins(component, self.components_geometry[k], self.angle).coefficients())
+
 
 # Delete after making tests ====================================================================
         #     nose_cone_geometry = Body(rocket.nose).coefficients()
@@ -71,6 +74,8 @@ class Rocket():
 
         for component in self.components_geometry:
             total_weight += component["weight"]
+        for component in self.internal_components:
+            total_weight += component["weight"]
 
         # for component in weight_pos_components: ### componentes de peso
         #     total_weight += component[0]
@@ -78,6 +83,9 @@ class Rocket():
         #     cg_pos += (component[0] * component[1]) / total_weight
 
         for component in self.components_geometry:
+            cg_pos += component["weight"] * component["center_of_gravity_pos"] / total_weight
+
+        for component in self.internal_components:
             cg_pos += component["weight"] * component["center_of_gravity_pos"] / total_weight
 
         return cg_pos

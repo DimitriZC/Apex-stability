@@ -1,7 +1,7 @@
 from Rocket import Rocket
-from foguete import dados, _rocket
+from foguete import dados, _rocket, internal_components
 
-Foguete = Rocket(dados, _rocket)
+Foguete = Rocket(dados, _rocket, internal_components)
 teste = Foguete.center_of_pressure_pos()
 
 

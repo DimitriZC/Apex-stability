@@ -16,6 +16,14 @@ dados = {
     "sound_velocity": 342
 }
 
+internal_components = [
+    {
+        "name": "engine",
+        "weight": 4000, #g
+        "center_of_gravity_pos": 1.65,
+    }
+]
+
 
 # Armação A22
 
