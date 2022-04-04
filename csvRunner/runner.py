@@ -181,14 +181,16 @@ for i in range(0, num_of_rockets * 3, 3):
 
     with open('foguete.py', 'r') as f:
         file = f.read().splitlines()
+        for index, v in enumerate(file):
+            if "_rocket" in v:
+                limit = index
 
+    with open('foguete.py', 'r') as f:
+        file = f.read().splitlines()
 
     with open('foguete.py', 'w') as f:
-        for i, v in enumerate(file):
-            if "_rocket" in v:
-                limit = i
-                break
-        for line in file[0:67]:
+
+        for line in file[0:limit]:
             f.write(f'{line}\n')
         f.write(txt_foguete)
 
