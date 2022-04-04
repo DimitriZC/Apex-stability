@@ -4,6 +4,12 @@ from time import sleep
 
 file_name = "HF"
 
+
+if os.path.exists(f"csvRunner/{file_name}") == False:
+    os.system(f'mkdir csvRunner/{file_name}')
+    print(f"Creating folder {file_name} ⏳️")
+else:  print(f"The folder {file_name} already exists 🚀")
+
 data = pd.read_csv(f"Rockets/{file_name}.csv")
 
 df = pd.DataFrame(data)
