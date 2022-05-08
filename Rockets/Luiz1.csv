@@ -1,0 +1,73 @@
+rocket,name,geometry_method,reference_area,initial_radius,thickness,final_radius,length,body_diameter,weight,position,material,body_type,name,geometry_method,thickness,root_chord,tip_chord,spanwise_length,sweep_length,sweep_angle,height,max_body_diameter,position,material,weight,body_type,number_of_fins,Mach,reference_area
+1-altura:x 3 aletas. 30% do tamanho. com canard,nose,body,reference_area,50.90 ,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,1","0,6",0.1,3,14,3,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,"5,4","1,5",0.08,"4,5",13,5,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+2-altura:x/4 aletas/30% /com canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,1","0,6",0.1,3,14,3,50.90,1.69,glass_fiber,140.415,rounded,4,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,"5,4","1,5",0.08,"4,5",13,5,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+3-altura:x/3 aletas/30%/ sem canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,1","0,6",0.1,3,14,3,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+4-altura:x/4 aletas/30%/sem canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,1","0,6",0.1,3,14,3,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+5-altura:x/3 aletas/40%/com canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,8","0,8",0.1,4,19,4,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,"7,2",2,0.08,6,17,7,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+6-altura:x/3 aletas/40% /sem canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,8","0,8",0.1,4,19,4,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+7-altura:x/4 aletas/40% /com canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,8","0,8",0.1,4,19,4,50.90,1.69,glass_fiber,140.415,rounded,4,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,"7,2",2,0.08,6,17,7,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+8-altura:x/4 aletas/40% /sem canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,8","0,8",0.1,4,19,4,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+9-altura:x/3 aletas/50%/com canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"3,5",1,0.1,5,24,5,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,9,"2,5",0.08,"7,5",22,9,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+10-altura:x/3 aletas/50%/sem canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"3,5",1,0.1,5,24,5,50.90,1.69,glass_fiber,140.415,rounded,4,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,9,"2,5",0.08,"7,5",22,9,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+11-altura:x/4 aletas/50%/com canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"3,5",1,0.1,5,24,5,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+12-altura:x/3 aletas/50%/com canard,nose,body,reference_area,50.90,8,50.90,"16,36165803",50.90,50,0,glass_fiber,von karman,fin,fin,23,"3,5",1,0.1,5,24,5,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"138,5",50.90,50,30,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+13-altura:x +3cm/3 aletas/30%/com canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,1","0,6",0.1,3,14,3,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,"5,4","1,5",0.08,"4,5",13,5,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+14-altura:x +3cm/4 aletas/30% /com canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,1","0,6",0.1,3,14,3,50.90,1.69,glass_fiber,140.415,rounded,4,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,"5,4","1,5",0.08,"4,5",13,5,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+15-altura:x +3cm/3 aletas/30%/ sem canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,1","0,6",0.1,3,14,3,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+16-altura:x +3cm/4 aletas/30%/sem canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,1","0,6",0.1,3,14,3,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+17-altura:x +3cm/3 aletas/40% /com canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,8","0,8",0.1,4,19,4,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,"7,2",2,0.08,6,17,7,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+18-altura:x +3cm/3 aletas/40% /sem canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,8","0,8",0.1,4,19,4,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+19-altura:x +3cm/4 aletas/40% /com canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,8","0,8",0.1,4,19,4,50.90,1.69,glass_fiber,140.415,rounded,4,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,"7,2",2,0.08,6,17,7,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+20-altura:x +3cm/4 aletas/40% /sem canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"2,8","0,8",0.1,4,19,4,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+21-altura:x +3cm/3 aletas/50% do tamanho/com canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"3,5",1,0.1,5,24,5,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,9,"2,5",0.08,"7,5",22,9,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+22-altura:x +3cm/3 aletas/50%/sem canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"3,5",1,0.1,5,24,5,50.90,1.69,glass_fiber,140.415,rounded,4,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard,fin,23,9,"2,5",0.08,"7,5",22,9,50.90,0.4,glass_fiber,40.848,rounded,3,0.66,reference_area
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+23-altura:x +3cm/4 aletas/50%/com canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"3,5",1,0.1,5,24,5,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,50.90,,,,,,,
+24-altura:x +3cm/3 aletas/50%/com canard,nose,body,reference_area,50.90,8,50.90,"19,90569948",50.90,50,0,glass_fiber,von karman,fin,fin,23,"3,5",1,0.1,5,24,5,50.90,1.69,glass_fiber,140.415,rounded,3,0.66,reference_area
+,fuselage,body,reference_area,50.90,8,50.90,"168,5",50.90,50,30,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,50.90,0,0,0,0,0,0,0
+,boattail,body,reference_area,50.90,8,0.05 / 2,0.06,50.90,50,300,glass_fiber,cone,,,,,,,,,,,,,,,,,

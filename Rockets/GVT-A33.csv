@@ -1,0 +1,580 @@
+rocket,name,geometry_method,reference_area,initial_radius,thickness,final_radius,length,body_diameter,weight,position,material,body_type,name,geometry_method,thickness,root_chord,tip_chord,spanwise_length,sweep_length,sweep_angle,height,max_body_diameter,position,material,weight,body_type,number_of_fins,Mach,reference_area
+"altura:1,18/3 aletas/30%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,286",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/30% /com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,286",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/30%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,286",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/30%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,286",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/40%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,268",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/40%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,268",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/40% /com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,268",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/40%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,268",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/50%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,25",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/50%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,25",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/50%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,25",glass_fiber,"84,8361",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/50%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,25",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/30%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,316",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,25/4 aletas/30%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,316",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/30%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,316",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/30%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,316",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/40% /com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,298",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/40% /sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,298",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/40%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,298",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/40%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,298",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/50%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,28",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/50%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,28",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/50%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,28",glass_fiber,"84,8361",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/50%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,28",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/60%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,232",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/60%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,232",glass_fiber,"122,1639",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/60%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,232",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/60%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,292",glass_fiber,"122,1639",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/70%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,214",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/70%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,214",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/70%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,214",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/70%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,214",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/80%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,196",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/80%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,196",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/80%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,196",glass_fiber,"217,1803",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/80%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,196",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/60%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,262",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/60%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,262",glass_fiber,"122,1639",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/60%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,262",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/60%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,262",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/70%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,244",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/70%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,244",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/70%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,244",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/70%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,244",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/80% do tamanho/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,226",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/80%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,226",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/80%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,226",glass_fiber,"217,1803",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/80%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,226",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/90%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,178",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/90%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,178",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/90%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,178",glass_fiber,"274,8688",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/90%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,178",glass_fiber,"274,8688",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/100%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,16",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/3 aletas/100%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,16",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/100%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,16",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,18/4 aletas/100%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,16",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,18","0,0509","693,436992","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,34",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/90%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,208",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/90%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,208",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/90%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,208",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/90%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,208",glass_fiber,"274,8688",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/100%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,19",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/3 aletas/100%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,19",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/100%/com canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,19",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,21/4 aletas/100%/sem canard",nose,body,reference_area,0,"0,003","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,19",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,003","0,02545","1,21","0,0509","711,066746","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,003","0,02","0,05","0,0509",20,"1,37",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura: 1,12/ aletas/ 30% do tamanho/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,045",13,"10,2","0,0509","1,226",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,021","0,006","0,027","0,03",14,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/30% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,045",13,"10,2","0,0509","1,226",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,021","0,006","0,027","0,03",14,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/30%/ sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,045",13,"10,2","0,0509","1,226",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/30%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,045",13,"10,2","0,0509","1,226",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/40%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,07","0,06",17,"10,2","0,0509","1,208",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,028","0,008","0,036","0,04",19,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/40% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,07","0,06",17,"10,2","0,0509","1,208",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/40% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,07","0,06",17,"10,2","0,0509","1,208",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,028","0,008","0,036","0,04",19,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/40% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,07","0,06",17,"10,2","0,0509","1,208",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/50%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,09","0,075","0,22","10,2","0,0509","1,19",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,035","0,01","0,05","0,05","0,240",10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/50%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,09","0,075","0,22","10,2","0,0509","1,19",glass_fiber,"84,8361",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,035","0,01","0,05","0,05","0,240",0,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/50%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,09","0,075","0,22","10,2","0,0509","1,19",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,10,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/50%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,09","0,075","0,22","10,2","0,0509","1,19",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,10,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/30%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,045",13,"10,2","0,0509","1,256",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,021","0,006","0,027","0,03",14,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/30% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,045",13,"10,2","0,0509","1,256",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,021","0,006","0,027","0,03",14,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/30%/ sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,045",13,"10,2","0,0509","1,256",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/30%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,045",13,"10,2","0,0509","1,256",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/40% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,07","0,06",17,"10,2","0,0509","1,238",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,028","0,008","0,036","0,04",19,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/40% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,07","0,06",17,"10,2","0,0509","1,238",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/40% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,07","0,06",17,"10,2","0,0509","1,238",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,028","0,008","0,036","0,04",19,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/40% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,07","0,06",17,"10,2","0,0509","1,238",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/50% do tamanho/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,09","0,075","0,22","10,2","0,0509","1,22",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,035","0,01","0,05","0,05","0,240",10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/50%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,09","0,075","0,22","10,2","0,0509","1,22",glass_fiber,"84,8361",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,035","0,01","0,05","0,05","0,240",0,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/50%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,09","0,075","0,22","10,2","0,0509","1,22",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,10,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/50%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,09","0,075","0,22","10,2","0,0509","1,22",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,10,"0,0509","0,3",0,"26,3000",0,0,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/ 3 aletas/ 60% do tamanho/ com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,172",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/60% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,172",glass_fiber,"122,1639",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/60%/ sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,172",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/60%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,172",glass_fiber,"122,1639",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/70%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,154",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/70% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,154",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/70% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,154",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/70% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,154",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/80%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,136",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/80%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,136",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/80%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,136",glass_fiber,"217,1803",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/80%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,136",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/60%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,202",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/60% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,202",glass_fiber,"122,1639",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/60%/ sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,202",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/60%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,202",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/70% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,184",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/70% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,184",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/70% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,184",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/70% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,184",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/80% do tamanho/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,166",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,"0,66",reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/80%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,166",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/80%/semcanard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,166",glass_fiber,"217,1803",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/80%/com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,166",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12 /3 aletas/90% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,118",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/90% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,118",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/90% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,118",glass_fiber,"274,8688",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/4 aletas/90% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,118",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/100% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,1",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/100%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,1",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/100% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,1",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,12/3 aletas/100%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,1",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/90% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,118",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/90% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,118",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/90% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,118",glass_fiber,"274,8688",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/4 aletas/90% /sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,118",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,12","0,0509","658,1774839",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/100% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,13",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/100%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,13",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/100% /com canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,13",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,15/3 aletas/100%/sem canard",nose,body,reference_area,0,"0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,13",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,15","0,0509","675,807238",16,glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,02036","0,05","0,0509",20,0,glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/30%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,346",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/30% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,346",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/30%/ sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,346",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/30%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,346",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/40%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,328",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/40% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,328",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/40% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,328",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/40% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,328",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/50%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,31",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/50%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,31",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/50%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,31",glass_fiber,"84,8361",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/50%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,31",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/30%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,376",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/30% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,376",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/30%/ sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,376",glass_fiber,"22,9057",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,16","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/30%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,054","0,015","0,051","0,048",29,"10,2","0,0509","1,376",glass_fiber,"30,5410",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/40% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,358",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/40% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,358",glass_fiber,"40,7213",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/40% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,358",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/40% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,072","0,02","0,068","0,064",29,"10,2","0,0509","1,358",glass_fiber,"54,2951",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/50% do tamanho/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,34",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/50%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,34",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/50%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,34",glass_fiber,"84,8361",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/50%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,09","0,025","0,085","0,08",29,"10,2","0,0509","1,34",glass_fiber,"63,6270",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/60% do tamanho/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,292",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/60% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,292",glass_fiber,"122,1639",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/60%/ sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,292",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/60%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,292",glass_fiber,"122,1639",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/70%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,274",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/70% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,274",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/70% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,274",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/70% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,274",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/80%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,256",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/80%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,256",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/80%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,256",glass_fiber,"217,1803",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/80%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,256",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/60%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,322",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/60% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,322",glass_fiber,"122,1639",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/60%/ sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,322",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,16","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/60%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,108","0,03","0,102","0,096",29,"10,2","0,0509","1,322",glass_fiber,"91,6229",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/70% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,304",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/70% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,304",glass_fiber,"124,7090",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/70% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,304",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/70% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,126","0,035","0,119","0,112",29,"10,2","0,0509","1,304",glass_fiber,"166,2787",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/80% do tamanho/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,286",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/80%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,286",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/80%/semcanard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,286",glass_fiber,"217,1803",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/80%/com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,144","0,04","0,136","0,128",29,"10,2","0,0509","1,286",glass_fiber,"162,8852",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/90% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,238",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/90% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,238",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/90% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,238",glass_fiber,"274,8688",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/4 aletas/90% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,238",glass_fiber,"274,8688",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/100% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,22",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/100%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,22",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/100% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,22",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/100%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,22",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,24/3 aletas/90% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,238",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/90% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,238",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/90% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,238",glass_fiber,"206,1516",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/4 aletas/90% /sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,162","0,045","0,153","0,144",29,"10,2","0,0509","1,238",glass_fiber,"274,8688",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,24","0,0509","728,6965001","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,4",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/100% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,25",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/100%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,25",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/100% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,25",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,4,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,16","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/100%/sem canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,25",glass_fiber,"339,3442",rounded,4,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard(sem),0,0,0,0,0,0,0,0,"0,0509","0,3",0,"26,3000",0,0,0,0
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,
+"altura:1,27/3 aletas/100% /com canard",nose,body,reference_area,"0,0000","0,0025","0,02545","0,16","0,0509",70,0,glass_fiber,von karman,fin,fin,"0,0023","0,18","0,05","0,17","0,16",29,"10,2","0,0509","1,25",glass_fiber,"254,5082",rounded,3,"0,66",reference_area
+,fuselage,body,reference_area,"0,02545","0,0025","0,02545","1,27","0,0509","746,3262541","0,16",glass_fiber,cylinder,canard,fin,"0,0023","0,049","0,014","0,063","0,07",26,10,"0,0509","0,3",glass_fiber,"26,3000",rounded,3,0,reference_area
+,boattail,body,reference_area,"0,02545","0,0025","0,0204","0,05","0,0509",20,"1,43",glass_fiber,cone,,,,,,,,,,,,,,,,,

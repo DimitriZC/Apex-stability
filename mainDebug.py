@@ -1,10 +1,10 @@
+from foguete import _rocket, dados, internal_components
 from Rocket import Rocket
-from foguete import dados, _rocket, internal_components
 
 Foguete = Rocket(dados, _rocket, internal_components)
 teste = Foguete.center_of_pressure_pos()
 
-output = f'''
+output = f"""
 # NoseCone:
 #     => cna = {float(Foguete.components_barrowman[0]["normal_force_angular_coefficient"]):.4f}
 #     => cn  = {float(Foguete.components_barrowman[0]["normal_force_coefficient_value"]):.4f}
@@ -33,19 +33,19 @@ output = f'''
 #     => xcp = {float(Foguete.components_geometry[3]["center_of_pressure_pos"]):.4f}
 #     => xcg = {float(Foguete.components_geometry[3]["center_of_gravity_pos"]):.4f}
 
-'''
+"""
 if len(Foguete.components_barrowman) == 5:
-    output += f'''# # Canards:
+    output += f"""# # Canards:
 #     => cna = {float(Foguete.components_barrowman[4]["normal_force_angular_coefficient"]):.4f}
 #     => cn  = {float(Foguete.components_barrowman[4]["normal_force_coefficient_value"]):.4f}
 # => cna1Fin = {float(Foguete.components_barrowman[4]["normal_force_angular_coefficient_one_fin"]):.4f}
 #     => xcp = {float(Foguete.components_geometry[4]["center_of_pressure_pos"]):.4f}
 #     => xcg = {float(Foguete.components_geometry[4]["center_of_gravity_pos"]):.4f}
 
-'''
+"""
 
 
-print(output)
+# print(output)
 
 print(f"CG = {Foguete.center_of_gravity_pos()}")
 print(f"CP = {Foguete.center_of_pressure_pos()}")

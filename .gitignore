@@ -1,6 +1,5 @@
 __pycache__
 T_Rockets
-.editorconfig
 drag.py
 motor_L110mm.eng
 notes.md
@@ -8,3 +7,4 @@ apagar.py
 apagar2.py
 *.txt
 !requirements.txt
+env
